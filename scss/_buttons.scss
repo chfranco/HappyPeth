@@ -3,14 +3,22 @@
 .btn{
   border: none;
   color: $white;
-  background-color: transparent;
+  background-color: rebeccapurple;
   transition: all ease .4s;
   font-family: $font-family;
   font-size: 1rem;
+  text-decoration: none;
+  height: 55px;
   &:focus{
     outline: none;
   }
 }
+
+.btn-card{
+  width: 238px;
+  border-radius: 2rem;
+}
+
 // .btn-cta{
 //   font-weight: 700;
 //   font-size: 1rem;

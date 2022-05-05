@@ -1,0 +1,19 @@
+@import 'variables';
+
+.card{
+    border-radius: .6rem;
+    height: 130px;
+    &-paddingA{
+        padding: 10px 40px;
+    }
+    &-paddingb{
+        padding: 10px 40px;
+    }
+    a{
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

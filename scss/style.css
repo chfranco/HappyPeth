@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-.atc {
+.atr {
   text-align: right;
 }
 
@@ -271,18 +271,29 @@ button {
   font-size: 18px;
 }
 
+.paddingSection-home {
+  padding: 0 3%;
+}
+
 .btn {
   border: none;
   color: #fff;
-  background-color: transparent;
+  background-color: rebeccapurple;
   -webkit-transition: all ease .4s;
   transition: all ease .4s;
   font-family: "Exo 2", sans-serif;
   font-size: 1rem;
+  text-decoration: none;
+  height: 55px;
 }
 
 .btn:focus {
   outline: none;
+}
+
+.btn-card {
+  width: 238px;
+  border-radius: 2rem;
 }
 
 .formLogin {
@@ -317,5 +328,57 @@ button {
   display: block;
   font-size: 20px;
   margin-top: 30px;
+}
+
+.footerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+.fMenuIcon {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  border-radius: .6rem;
+  height: 130px;
+}
+
+.card-paddingA {
+  padding: 10px 40px;
+}
+
+.card-paddingb {
+  padding: 10px 40px;
+}
+
+.card a {
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

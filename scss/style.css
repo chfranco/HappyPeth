@@ -1,0 +1,321 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body.overlayed {
+  position: relative;
+  overflow: hidden;
+}
+
+body.bg-yellow {
+  background-color: #f7d62b;
+}
+
+p {
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+/*---- TITLES -----*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Exo 2", sans-serif;
+  margin: 0;
+}
+
+/*----- Position Text ------*/
+.atl {
+  text-align: left;
+}
+
+.atc {
+  text-align: center;
+}
+
+.atc {
+  text-align: right;
+}
+
+/*-----Positon cenrer-----*/
+.pc {
+  margin: 0 auto;
+  display: block;
+}
+
+.subtitle {
+  color: yellow;
+  font-style: italic;
+  font-size: 1.31rem;
+  max-width: 300px;
+  margin: 0 auto 1rem;
+}
+
+ul.list-bitel {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.list-bitel li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: .8rem;
+}
+
+ul.list-bitel li:before {
+  content: url(../img/icon-bitel-coin.svg);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  position: relative;
+  top: .2rem;
+  font-style: normal;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: .8rem;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Exo 2", sans-serif;
+}
+
+/*---- LAYOUT -----*/
+.page {
+  color: #fff;
+}
+
+.hide {
+  display: none !important;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 .7rem;
+}
+
+.container.container-alt {
+  max-width: 312px;
+}
+
+@media (min-width: 768px) {
+  .container.container-alt {
+    max-width: 576px;
+  }
+}
+
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 2rem !important;
+  display: block;
+}
+
+.mb-3 {
+  margin-bottom: 3rem !important;
+}
+
+.pb-1 {
+  padding-bottom: 1rem !important;
+}
+
+.pb-2 {
+  padding-bottom: 2rem !important;
+  display: block;
+}
+
+.pb-3 {
+  padding-bottom: 3rem !important;
+}
+
+.pb-4 {
+  padding-bottom: 4rem !important;
+}
+
+.pb-5 {
+  padding-bottom: 5rem !important;
+}
+
+.pb-6 {
+  padding-bottom: 6rem !important;
+}
+
+.pt-1 {
+  padding-top: 1rem !important;
+}
+
+.pt-2 {
+  padding-top: 2rem !important;
+  display: block;
+}
+
+.pt-3 {
+  padding-top: 3rem !important;
+}
+
+.pt-4 {
+  padding-top: 4rem !important;
+}
+
+.pt-5 {
+  padding-top: 5rem !important;
+}
+
+.pt-6 {
+  padding-top: 6rem !important;
+}
+
+.cta-fixed {
+  position: fixed;
+  padding: 0rem 0 1rem;
+  z-index: 50;
+  bottom: 0;
+  width: 100%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 101;
+  padding: .5rem;
+}
+
+.gradient-overlay {
+  position: fixed;
+  height: 6rem;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.95)));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.95) 100%);
+  bottom: 0;
+  z-index: 40;
+  pointer-events: none;
+}
+
+.splash {
+  margin-top: 22vh;
+}
+
+.padding-section {
+  padding: 0 10vw;
+}
+
+.login-description {
+  padding: 20px 0;
+}
+
+.login-description p {
+  color: #927d10;
+}
+
+.button-section {
+  background: #fff;
+  height: 50px;
+  position: relative;
+}
+
+.button-section .sec-left {
+  position: absolute;
+  left: 0;
+  width: calc(100% - 200px);
+  text-align: center;
+  padding-top: 16px;
+}
+
+.button-section .sec-left p {
+  text-align: right;
+  color: #927d10;
+}
+
+.button-section .sec-right {
+  position: absolute;
+  right: 0;
+  width: 200px;
+}
+
+.button-section .sec-right a {
+  background: #06c9ef;
+  color: white;
+  text-decoration: none;
+  padding: 14.4px 20px 14.4px 36px;
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  background-color: transparent;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1rem;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.formLogin {
+  margin-top: 45px;
+}
+
+.formLogin input[type="text"], .formLogin input[type="password"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  padding: .9rem;
+  color: black;
+  font-size: 1rem;
+  border-radius: 10px;
+  background: #c5aa1d;
+  width: 100%;
+  margin: 6px 0;
+}
+
+.formLogin select {
+  background: none;
+  border: none;
+  font-size: 16px;
+}
+
+.formLogin label {
+  color: #c5aa1d;
+}
+
+.formLogin input[type="submit"] {
+  margin: 0 auto;
+  display: block;
+  font-size: 20px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

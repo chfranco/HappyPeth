@@ -275,10 +275,36 @@ button {
   padding: 0 3%;
 }
 
+.sectionAdd-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+.singletitle {
+  margin: 10px 0;
+}
+
+.addEvent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .btn {
   border: none;
   color: #fff;
-  background-color: rebeccapurple;
+  background-color: #333333;
   -webkit-transition: all ease .4s;
   transition: all ease .4s;
   font-family: "Exo 2", sans-serif;
@@ -380,5 +406,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.card .p-padding {
+  padding-bottom: 10px;
 }
 /*# sourceMappingURL=style.css.map */

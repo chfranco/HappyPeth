@@ -257,3 +257,19 @@ button{
 .paddingSection-home{
   padding:0 3%; 
 }
+
+.sectionAdd-home{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.singletitle{
+  margin: 10px 0;
+}
+
+.addEvent{
+  display: flex;
+  align-items: center;
+}

@@ -1,5 +1,6 @@
 @import 'variables';
 
+
 *{
   box-sizing: border-box;
 }
@@ -38,6 +39,10 @@ h1, h2, h3, h4, h5, h6{
   margin: 0;
 }
 
+.font-weightA{
+  font-weight: 600;
+}
+
 /*----- Position Text ------*/
 
 .atl{
@@ -57,6 +62,7 @@ h1, h2, h3, h4, h5, h6{
   margin: 0 auto;
   display: block;
 }
+
 
 .subtitle{
   color: yellow;
@@ -222,32 +228,23 @@ button{
 
 .button-section{
   background: $white;
-  height: 50px;
-  position: relative;
+  display: flex;
+  justify-content: right;
   .sec-left{
-    position: absolute;
-    left: 0;
-    width: calc(100% - 200px);
-    text-align: center;
-    padding-top: 16px;
     p{
       text-align: right;
       color: #927d10;
     }
   }
-  .sec-right{
-    position: absolute;
-    right: 0;
-    width: 200px;
-    a{
-      background: $greenish-blue;
-      color: white;
-      text-decoration: none;
-      padding:14.4px 20px 14.4px 36px;
-      position: absolute;
-      right: 0;
-      font-size: 18px;
-    }
+  a{
+    background: $greenish-blue;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    padding-top: 16px;
   }
   }
 
@@ -256,6 +253,9 @@ button{
 //home
 .paddingSection-home{
   padding:0 3%; 
+  .singletitle{
+    color: $greenish-blue;
+  }
 }
 
 .sectionAdd-home{
@@ -263,6 +263,14 @@ button{
   justify-content:space-between;
   align-items: center;
   margin: 10px 0;
+  h3{
+    color: $greenish-blue;
+  }
+  a{
+    color: $salmon;
+    text-decoration: none;
+    font-size: 14px;
+  }
 }
 
 .singletitle{
@@ -272,4 +280,34 @@ button{
 .addEvent{
   display: flex;
   align-items: center;
+}
+
+//homelog
+.font-weight{
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.section-addPet{
+  display: flex;
+  .pet{
+    margin:1%;
+  }
+  .img-petAdd{
+    margin-top: 17px;
+  }
+}
+
+.homelog-date{
+  display: flex;
+  margin: 18px 0 8px;
+  h3{
+    font-weight: 600;
+  }
+  span{
+    font-size: 16px;
+    padding-left: 4px;
+    color: $metallic-blue;
+    margin-top: 2px;
+  }
 }

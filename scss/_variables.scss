@@ -11,6 +11,29 @@ $black: black;
 $light-gray: #f1f1f1;
 $white: #fff;
 $text: #3c3c3c;
+$blue-dark-text:#056ea1; 
+$blue-light-text:#009fee; 
+
+.yelllow-bg{
+    background-color: $yellow;
+}
+
+.light-blue-bg{
+    background-color: $light-blue;
+}
+
+.orange-bg{
+    background-color: $soft-orange;
+}
+
+.blue-textA{
+    color: $blue-dark-text;
+}
+
+.blue-textB{
+    color: $blue-light-text;
+}
+
 // $error: $red;
 
 // $primary: $red;

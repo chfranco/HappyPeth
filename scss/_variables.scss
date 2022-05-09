@@ -14,6 +14,14 @@ $text: #3c3c3c;
 $blue-dark-text:#056ea1; 
 $blue-light-text:#009fee; 
 
+.blue-textA{
+    color: $blue-dark-text;
+}
+
+.blue-textB{
+    color: $blue-light-text;
+}
+
 .yelllow-bg{
     background-color: $yellow;
 }
@@ -26,12 +34,34 @@ $blue-light-text:#009fee;
     background-color: $soft-orange;
 }
 
-.blue-textA{
-    color: $blue-dark-text;
+.orange-gradient{
+    background: rgb(245,161,58);
+    background: linear-gradient(180deg, rgba(245,161,58,1) 0%, rgba(242,137,13,1) 100%);
 }
 
-.blue-textB{
-    color: $blue-light-text;
+.orange-light-gradient{
+    background: rgb(244,164,94);
+    background: linear-gradient(180deg, rgba(244,164,94,1) 0%, rgba(241,145,59,1) 100%);
+}
+
+.blue-light-gradient{
+    background: rgb(199,238,245);
+    background: linear-gradient(180deg, rgba(199,238,245,1) 0%, rgba(186,234,241,1) 100%);
+}
+
+.blue-green-gradient{
+    background: rgb(54,211,241);
+    background: linear-gradient(180deg, rgba(54,211,241,1) 0%, rgba(10,202,239,1) 100%);
+}
+
+.yellow-dark-gradient{
+    background: rgb(247,191,57);
+    background: linear-gradient(180deg, rgba(247,191,57,1) 0%, rgba(246,177,12,1) 100%);    
+}
+
+.yellow-light-gradient{
+    background: rgb(248,222,83);
+    background: linear-gradient(180deg, rgba(248,222,83,1) 0%, rgba(247,213,45,1) 100%);
 }
 
 // $error: $red;

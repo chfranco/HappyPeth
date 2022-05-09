@@ -26,6 +26,15 @@
   background: #cacaca;
 }
 
+.triangulo{
+width: 0;
+height: 0;
+border-top: 8px solid transparent;
+border-left: 16px solid white;
+border-bottom: 8px solid transparent;
+margin-right: 15px;
+margin-left: -1px;
+}
 // .btn-cta{
 //   font-weight: 700;
 //   font-size: 1rem;

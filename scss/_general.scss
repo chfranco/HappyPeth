@@ -223,6 +223,7 @@ button{
   padding: 20px 0;
   p{
     color: #927d10;
+    padding-top: 8px;
   }
 }
 
@@ -234,6 +235,8 @@ button{
     p{
       text-align: right;
       color: #927d10;
+      padding-top: 18px;
+      padding-right: 15px;    
     }
   }
   a{
@@ -244,11 +247,20 @@ button{
     height: 50px;
     width: 160px;
     text-align: center;
-    padding-top: 16px;
+    display: flex;
+    align-items: center;
   }
   }
 
 //login fin 
+
+//register
+.tyc{
+  font-size: 14px;
+  a{
+    color: black;
+  }
+}
 
 //home
 .paddingSection-home{

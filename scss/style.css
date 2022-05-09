@@ -6,6 +6,14 @@
   color: #009fee;
 }
 
+.orange-textC {
+  color: #f18e37;
+}
+
+.lightBlue-textB {
+  color: #baeaf2;
+}
+
 .yelllow-bg {
   background-color: #f7d62b;
 }
@@ -60,6 +68,14 @@
 
 .blue-textB {
   color: #009fee;
+}
+
+.orange-textC {
+  color: #f18e37;
+}
+
+.lightBlue-textB {
+  color: #baeaf2;
 }
 
 .yelllow-bg {
@@ -242,6 +258,10 @@ button {
   .container.container-alt {
     max-width: 576px;
   }
+}
+
+.paddingSection-app {
+  padding: 0 6vw;
 }
 
 .mb-1 {
@@ -453,6 +473,10 @@ button {
   margin: 1%;
 }
 
+.section-addPet .pet p {
+  color: #323d59;
+}
+
 .section-addPet .img-petAdd {
   margin-top: 17px;
 }
@@ -475,12 +499,45 @@ button {
   margin-top: 2px;
 }
 
+.qr-section {
+  margin-top: 40px;
+}
+
+.qr-pet {
+  width: 80%;
+}
+
+.ghostBtn span {
+  padding: 20px 10px;
+  font-size: 18px;
+  color: #3c3c3c;
+}
+
+.titleInformation {
+  color: #d7d7d7;
+  text-transform: uppercase;
+  margin-top: 4vh;
+}
+
+.text-qr {
+  padding: 45px 20px 0;
+  font-size: 15.5px;
+}
+
 .blue-textA {
   color: #056ea1;
 }
 
 .blue-textB {
   color: #009fee;
+}
+
+.orange-textC {
+  color: #f18e37;
+}
+
+.lightBlue-textB {
+  color: #baeaf2;
 }
 
 .yelllow-bg {
@@ -547,9 +604,33 @@ button {
   outline: none;
 }
 
+.btn object {
+  margin-left: -10px;
+  margin-right: 13px;
+}
+
 .btn-card {
-  width: 238px;
+  width: 226px;
   border-radius: 2rem;
+}
+
+.btn-normal {
+  width: 170px;
+  border-radius: 30px;
+}
+
+.ghostBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .circle {
@@ -577,60 +658,12 @@ button {
   color: #009fee;
 }
 
-.yelllow-bg {
-  background-color: #f7d62b;
+.orange-textC {
+  color: #f18e37;
 }
 
-.light-blue-bg {
-  background-color: #baeaf2;
-}
-
-.orange-bg {
-  background-color: #f18e37;
-}
-
-.orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
-}
-
-.orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
-}
-
-.blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
-}
-
-.blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
-}
-
-.yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
-}
-
-.yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
-}
-
-.blue-textA {
-  color: #056ea1;
-}
-
-.blue-textB {
-  color: #009fee;
+.lightBlue-textB {
+  color: #baeaf2;
 }
 
 .yelllow-bg {
@@ -689,6 +722,14 @@ button {
   color: #009fee;
 }
 
+.orange-textC {
+  color: #f18e37;
+}
+
+.lightBlue-textB {
+  color: #baeaf2;
+}
+
 .yelllow-bg {
   background-color: #f7d62b;
 }
@@ -743,6 +784,78 @@ button {
 
 .blue-textB {
   color: #009fee;
+}
+
+.orange-textC {
+  color: #f18e37;
+}
+
+.lightBlue-textB {
+  color: #baeaf2;
+}
+
+.yelllow-bg {
+  background-color: #f7d62b;
+}
+
+.light-blue-bg {
+  background-color: #baeaf2;
+}
+
+.orange-bg {
+  background-color: #f18e37;
+}
+
+.orange-gradient {
+  background: #f5a13a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
+  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+}
+
+.orange-light-gradient {
+  background: #f4a45e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
+  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+}
+
+.blue-light-gradient {
+  background: #c7eef5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
+  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+}
+
+.blue-green-gradient {
+  background: #36d3f1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
+  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+}
+
+.yellow-dark-gradient {
+  background: #f7bf39;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
+  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+}
+
+.yellow-light-gradient {
+  background: #f8de53;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
+  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+}
+
+.blue-textA {
+  color: #056ea1;
+}
+
+.blue-textB {
+  color: #009fee;
+}
+
+.orange-textC {
+  color: #f18e37;
+}
+
+.lightBlue-textB {
+  color: #baeaf2;
 }
 
 .yelllow-bg {
@@ -794,7 +907,7 @@ button {
 }
 
 .formLogin {
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 .formLogin input[type="text"], .formLogin input[type="password"] {
@@ -813,7 +926,7 @@ button {
 .formLogin select {
   background: none;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   color: #8f6b04;
 }
 
@@ -860,6 +973,14 @@ button {
 
 .blue-textB {
   color: #009fee;
+}
+
+.orange-textC {
+  color: #f18e37;
+}
+
+.lightBlue-textB {
+  color: #baeaf2;
 }
 
 .yelllow-bg {
@@ -952,12 +1073,16 @@ button {
 }
 
 .card2-paddingB {
-  padding: 8px 20px;
+  padding: 6px 14px;
 }
 
 .card2-line {
   height: 9px;
   background: #f2890b;
+}
+
+.card2-title {
+  font-size: 19px;
 }
 
 .card2-datos {
@@ -969,6 +1094,11 @@ button {
 
 .card2-datos-margin {
   margin-right: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .card2 a {
@@ -984,7 +1114,15 @@ button {
           align-items: center;
 }
 
+.card2 span {
+  font-size: 14px;
+}
+
 .card2 .p-padding {
   padding-bottom: 10px;
+}
+
+.card2 .p-size {
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */

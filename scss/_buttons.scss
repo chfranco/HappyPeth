@@ -12,11 +12,28 @@
   &:focus{
     outline: none;
   }
+  object{
+    margin-left: -10px;
+    margin-right: 13px;
+  }
 }
 
 .btn-card{
-  width: 238px;
+  width: 226px;
   border-radius: 2rem;
+}
+
+.btn-normal{
+  width: 170px;
+  border-radius: 30px;
+}
+
+.ghostBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .circle{

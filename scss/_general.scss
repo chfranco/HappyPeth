@@ -124,6 +124,10 @@ button{
   }
 }
 
+.paddingSection-app{
+ padding: 0 6vw;
+}
+
 .mb-1{
   margin-bottom: 1rem !important;
 }
@@ -304,6 +308,9 @@ button{
   display: flex;
   .pet{
     margin:1%;
+    p{
+      color: $dark-grey-blue;
+    }
   }
   .img-petAdd{
     margin-top: 17px;
@@ -322,4 +329,32 @@ button{
     color: $metallic-blue;
     margin-top: 2px;
   }
+}
+
+//qr section
+.qr-section{
+  margin-top: 40px;
+}
+
+.qr-pet{
+  width: 80%;
+}
+
+.ghostBtn{
+  span{
+    padding: 20px 10px;
+    font-size: 18px;
+    color: $text;
+  }
+}
+
+.titleInformation{
+  color: #d7d7d7;
+  text-transform: uppercase;
+  margin-top: 4vh;
+}
+
+.text-qr{
+  padding: 45px 20px 0;
+  font-size: 15.5px;
 }

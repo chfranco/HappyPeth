@@ -358,3 +358,53 @@ button{
   padding: 45px 20px 0;
   font-size: 15.5px;
 }
+
+//planes
+.sectionAdd-plan{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.plan{
+  &-title{
+    font-size: 26px;
+    margin-top: 20px;
+  }
+  &-subtitle{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 5px 0;
+  }
+  &-contentA{
+    border-top : 2px solid $orange;
+    border-bottom : 2px solid $orange;
+    padding: 5px 0 30px;
+  }
+  &-contentB{
+    border-top : 2px solid $greenish-blue;
+    border-bottom : 2px solid $greenish-blue;
+    padding: 5px 0 30px;
+  }
+  &-contentC{
+    border-top : 2px solid $yellow;
+    border-bottom : 2px solid $yellow;
+    padding: 5px 0 30px;
+  }
+  &-description{
+    padding: 0 2px 0 18px;
+    margin-bottom: 5px;
+    li{
+      padding-bottom: 10px;
+    }
+  }
+}
+.aplicaTerminos{
+  font-style: italic;
+  color: #7d7d7d;
+  padding: 7px 0 12px;
+  a{
+    color: #7d7d7d;
+  }
+}

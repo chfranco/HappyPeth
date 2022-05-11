@@ -421,6 +421,10 @@ button {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .button-section .sec-left p {
@@ -629,6 +633,8 @@ button {
   background: url(../img/lovePet.jpg) no-repeat;
   height: 100vh;
   position: relative;
+  background-position: top;
+  background-position-y: -27px;
 }
 
 .pet-title {
@@ -723,6 +729,19 @@ button {
 
 .owner-detail {
   margin-bottom: 10px;
+}
+
+.sectionPet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px 0 0;
 }
 
 .blue-textA {
@@ -1259,6 +1278,8 @@ hr {
   height: 70px;
   width: 100%;
   background: #f1f1f1;
+  position: absolute;
+  bottom: 0;
 }
 
 .fMenuIcon {

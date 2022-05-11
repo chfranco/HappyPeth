@@ -408,3 +408,81 @@ button{
     color: #7d7d7d;
   }
 }
+
+//pet info
+
+.pet{
+  &-info{
+    background: url(../img/lovePet.jpg) no-repeat; 
+    height: 100vh;
+    position: relative;
+  }
+  &-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #d7d7d7;
+  }
+  &-name{
+    font-size: 22px;
+    padding-bottom: 0;
+  }
+  &-breed{
+    font-size:18px;
+    margin-bottom: 16px;
+  } 
+  &-desctription{
+    background: $white;
+    height: 64vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 1.6rem 1.6rem 0 0;
+    hr{
+      margin-top: 10px;
+      height: 6px;
+    }
+  }
+  &-features{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &-feature{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #fef6ea;
+    width: 70px;
+    height: 66px;
+    border-radius: 15px;
+    p{
+      font-size: 14px;
+      padding-bottom: 3px;
+    }
+  }
+  &-chip{
+    background-color: #d7d7d7;
+    color: $white;
+    padding: 5px 20px;
+    border-radius: 1rem;
+  }
+  &-infoOwner{
+    padding: 20px 0 10px;
+    h2{
+      font-size: 15px;
+      color: #d7d7d7;
+      margin-bottom: 20px;
+    }
+    p{
+      color: #d7d7d7;
+    }
+    h4{
+      font-size: 18px;
+    }
+  }
+}
+
+.owner-detail{
+  margin-bottom: 10px;
+}

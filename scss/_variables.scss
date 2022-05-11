@@ -103,3 +103,12 @@ $br-sm: 5px;
 
 // Fonts
 $font-family: 'Exo 2', sans-serif;
+
+//line
+hr{
+    background: #e5e5e5;
+    height: 5px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+}

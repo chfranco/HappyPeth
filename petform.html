@@ -11,28 +11,74 @@
   <title>Qr Happypet</title>
 </head>
 <body class="pet-info">
-  <div class="pet-section"> 
+  <div class="pet-section upload"> 
+    <a href="#" class="btn btn-small orange-light-gradient font-weightA btn-upload">Subir foto</a>
   </div>
   <div class="pet-desctription paddingSection-app">
     <hr>
     <p class="atc pet-title">INFORMACION DE LA MASCOTA</p>
 
-    <div class="pet-features">
+    <form class="petForm text-gray" action="">
 
-    </div>
-
-    <div class="pet-infoOwner">
-        <h2 class="pet-title atc">INFORMACION DEL DUEÑO</h2>
-        <div class="owner-detail">
-
+      <div class="form-content">
+        <div class="division">
+          <label for="fname">Nombre:</label>
+          <input class="wInput-A" type="text" id="fname" name="fname">
         </div>
-
-        <div class="sectionPet">
-            <a class="btn btn-normal pc atc orange-light-gradient font-weightA" href="">
-               Guardar
-            </a>
+        <div class="division">
+          <label for="lname">Raza:</label>
+          <input class="wInput-B" type="text" id="lname" name="lname">
         </div>
-    </div>
+        <div class="division">
+          <label for="lname">Feecha de nacimiento:</label>
+          <input class="wInput-C" type="date" id="" name="birth">
+        </div>
+        <div class="division form-genero">
+          <label for="lname" class="genero">Género:</label>
+          <label for="html">Macho</label>
+          <input type="radio" id="html" name="fav_language" value="HTML" class="genero">
+          <label for="css">Hembra</label>
+          <input type="radio" id="css" name="fav_language" value="CSS">
+        </div>
+        <div class="division">
+          <label for="fname">Peso:</label>
+          <input class="wInput-D" type="text" id="fname" name="fname"><br>
+        </div>
+        <div class="division">
+          <label for="lname"># de peso:</label>
+          <input class="wInput-E" type="text" id="lname" name="lname">
+        </div>
+      </div>
+  
+      <div class="pet-infoOwner">
+          <h2 class="pet-title atc">INFORMACION DEL DUEÑO</h2>
+          <div class="owner-detail">
+            <div class="division">
+              <label for="">Nombre:</label>
+              <input class="wInput-F" type="text" id="" name="fname">
+            </div>
+            <div class="division">
+              <label for="">Documento:</label>
+              <input class="wInput-G" type="number" id="" name="lname">
+            </div>
+            <div class="division">
+              <label for="">Email:</label>
+              <input class="wInput-H" type="email" id="" name="lname">
+            </div>
+            <div class="division">
+              <label for="">Celular:</label>
+              <input class="wInput-I" type="tel" id="" name="lname">
+            </div>
+          </div>
+          
+          <div class="form-content">
+            <input class="btn btn-small orange-light-gradient font-weightA btn-small-pet" type="submit" value="Guardar">
+          </input>
+
+      </div>
+      
+    </form>
+
   </div>  
   <script src="./js/functions.js" type="text/javascript" charset="utf-8"></script>
 </body>

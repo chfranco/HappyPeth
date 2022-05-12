@@ -36,6 +36,41 @@
 }
 
 
+.btn-small{
+  width: 48%;
+  border-radius: 2rem;
+  height: 45px;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  color: $white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    object{
+      margin-left: 5px;
+    }
+  &-pet{
+    font-size: 22px;
+    margin: 0 auto;
+  }
+}
+
+.btn-upload{
+  display: flex;
+  font-size: 15px;
+  width: 140px!important;
+  height: 38px!important;
+}
+
+
+
+.btn-xSmall{
+  
+}
+
 
 .ghostBtn{
   display: flex;

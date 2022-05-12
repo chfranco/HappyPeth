@@ -30,21 +30,57 @@
     margin-top: 25px;
   }
 }  
-// }
-// #login-form{
-//   display: flex;
-//   flex-direction: column;
-//   margin: 0 auto;
-//   a{
-//     color: white;
-//   }
-//   .btn-cta{
-//     width: 100%;
-//   }
-//   .btn-submit{
-//     margin-bottom: 1rem;
-//   }
-//   input.number{
-//     margin-bottom: 1rem;
-//   }
-// }
+
+.petForm{
+  input[type="text"], input[type="number"],
+  input[type="email"], input[type="tel"] {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    height: 24px;
+    color: #b8b8b8;
+  }
+  .division{
+    margin: 5px 0;
+  }
+  .form-content{
+    margin-top: 14px;
+  }
+
+  .form-genero{
+    display: flex;
+    align-items: center;
+  }
+  .genero{
+    margin-right: 14px;
+  }
+} 
+
+.wInput{
+  &-A{
+    width: 69vw;
+  }
+  &-B{
+    width: 75vw;
+  }
+  &-C{
+    width: 41vw;
+  }
+  &-D{
+    width: 75vw;
+  }
+  &-E{
+    width: 65vw;
+  }
+  &-F{
+    width: 69vw;
+  }
+  &-G{
+    width: 62vw;
+  }
+  &-H{
+    width: 74vw;
+  }
+  &-I{
+    width: 71vw;
+  }
+}

@@ -422,7 +422,7 @@ button{
     height: 100vh;
     position: relative;
     background-position: top;
-    background-position-y: -27px;
+    background-position-y: -42px;
   }
   &-title{
     font-size: 16px;
@@ -500,3 +500,10 @@ button{
   align-items: center;
   margin: 30px 0 0;
 } 
+
+.upload{
+  height:35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

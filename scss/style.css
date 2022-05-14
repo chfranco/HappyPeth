@@ -183,8 +183,8 @@ html {
   font-family: 'Exo 2', sans-serif;
 }
 
-body {
-  margin: 70px 0 0 0;
+body.marginApp {
+  margin: 70px 0 90px;
   padding: 0;
 }
 
@@ -195,6 +195,10 @@ body.overlayed {
 
 body.bg-yellow {
   background-color: #f7d62b;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 p {
@@ -239,44 +243,6 @@ h1, h2, h3, h4, h5, h6 {
 .pc {
   margin: 0 auto;
   display: block;
-}
-
-.subtitle {
-  color: yellow;
-  font-style: italic;
-  font-size: 1.31rem;
-  max-width: 300px;
-  margin: 0 auto 1rem;
-}
-
-ul.list-bitel {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-ul.list-bitel li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: .8rem;
-}
-
-ul.list-bitel li:before {
-  content: url(../img/icon-bitel-coin.svg);
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
-  position: relative;
-  top: .2rem;
-  font-style: normal;
-  width: 1.75rem;
-  height: 1.75rem;
-  margin-right: .8rem;
-}
-
-button {
-  cursor: pointer;
-  font-family: "Exo 2", sans-serif;
 }
 
 /*---- LAYOUT -----*/
@@ -426,9 +392,9 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -517,8 +483,8 @@ button {
 
 .section-addPet {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  overflow-x: scroll;
+  padding: 0 22px;
 }
 
 .section-addPet .pet {
@@ -552,7 +518,7 @@ button {
 }
 
 .qr-section {
-  margin-top: 40px;
+  margin-top: 90px;
 }
 
 .qr-pet {
@@ -640,7 +606,6 @@ button {
 .pet-info {
   background: url(../img/lovePet.jpg) no-repeat;
   height: 100vh;
-  position: relative;
   background-position: top;
   background-position-y: -42px;
 }
@@ -1086,12 +1051,21 @@ hr {
 
 .headerApp button {
   border: none;
+  background: none;
 }
 
 .headerApp .headerAvatar {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+}
+
+.headerApp-background {
+  background: #fff;
+}
+
+.headerApp h3 {
+  font-size: 24px;
 }
 
 .nav-user {
@@ -1179,8 +1153,23 @@ hr {
 }
 
 .x {
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 25px;
+  margin-top: 24px;
+  width: 20px;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 14px;
+}
+
+.item img {
+  width: 20px;
 }
 
 .text-gray {
@@ -1455,7 +1444,7 @@ hr {
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
-  padding: .9rem;
+  padding: .7rem;
   color: black;
   font-size: 1rem;
   border-radius: 10px;
@@ -1483,10 +1472,11 @@ hr {
 }
 
 .petForm input[type="text"], .petForm input[type="number"],
-.petForm input[type="email"], .petForm input[type="tel"] {
+.petForm input[type="email"], .petForm input[type="tel"],
+.petForm input[type="date"] {
   border: 1px solid #e5e5e5;
   border-radius: 6px;
-  height: 24px;
+  height: 26px;
   color: #b8b8b8;
 }
 
@@ -1557,8 +1547,7 @@ hr {
   height: 70px;
   width: 100%;
   background: #f1f1f1;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 
@@ -1574,6 +1563,10 @@ hr {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.cls-1:hover {
+  fill: red;
 }
 
 .text-gray {

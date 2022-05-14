@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     })
 
 
-    document.querySelector(".x").addEventListener("click", ()=>{
+    document.querySelector(".close").addEventListener("click", ()=>{
         nav.classList.remove("nav-open")
     })
 

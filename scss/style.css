@@ -374,12 +374,30 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 22vh;
 }
 
+.body-login {
+  height: 92vh;
+}
+
+.dogA {
+  background-image: url("../img/pet2.png");
+  background-size: 48vh;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.dogB {
+  background-image: url("../img/pet3.png");
+  background-size: 35vh;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
 .padding-section {
-  padding: 0 10vw;
+  padding: 0 6vw;
 }
 
 .login-description {
-  padding: 20px 0;
+  padding: 16px 0;
 }
 
 .login-description p {
@@ -680,6 +698,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding: 5px 20px;
   border-radius: 1rem;
+  font-size: 13px;
 }
 
 .pet-infoOwner {
@@ -698,6 +717,42 @@ h1, h2, h3, h4, h5, h6 {
 
 .pet-infoOwner h4 {
   font-size: 18px;
+}
+
+.pet-qrSec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 30px 0 14px;
+}
+
+.pet-qr {
+  width: 80px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+.pet-qr img {
+  display: block;
+  max-width: 80%;
+  width: 80%;
+  position: absolute;
+}
+
+.pet-qr object {
+  position: absolute;
 }
 
 .owner-detail {
@@ -1348,6 +1403,147 @@ hr {
   border-radius: 10px;
 }
 
+.overlay {
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15vh;
+  margin: auto;
+}
+
+.spinner {
+  font-size: 60px;
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.spinner.center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15vh;
+  margin: auto;
+}
+
+.spinner-blade {
+  position: absolute;
+  left: .4629em;
+  bottom: 0;
+  width: .074em;
+  height: .199em;
+  border-radius: .5em;
+  background-color: transparent;
+  -webkit-transform-origin: center -.2222em;
+          transform-origin: center -.2222em;
+  -webkit-animation: spinner-fade 1s infinite linear;
+          animation: spinner-fade 1s infinite linear;
+}
+
+.spinner-blade:nth-child(1) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.spinner-blade:nth-child(2) {
+  -webkit-animation-delay: 0.083s;
+          animation-delay: 0.083s;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.spinner-blade:nth-child(3) {
+  -webkit-animation-delay: 0.166s;
+          animation-delay: 0.166s;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.spinner-blade:nth-child(4) {
+  -webkit-animation-delay: 0.249s;
+          animation-delay: 0.249s;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.spinner-blade:nth-child(5) {
+  -webkit-animation-delay: 0.332s;
+          animation-delay: 0.332s;
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+}
+
+.spinner-blade:nth-child(6) {
+  -webkit-animation-delay: 0.415s;
+          animation-delay: 0.415s;
+  -webkit-transform: rotate(150deg);
+          transform: rotate(150deg);
+}
+
+.spinner-blade:nth-child(7) {
+  -webkit-animation-delay: 0.498s;
+          animation-delay: 0.498s;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.spinner-blade:nth-child(8) {
+  -webkit-animation-delay: 0.581s;
+          animation-delay: 0.581s;
+  -webkit-transform: rotate(210deg);
+          transform: rotate(210deg);
+}
+
+.spinner-blade:nth-child(9) {
+  -webkit-animation-delay: 0.664s;
+          animation-delay: 0.664s;
+  -webkit-transform: rotate(240deg);
+          transform: rotate(240deg);
+}
+
+.spinner-blade:nth-child(10) {
+  -webkit-animation-delay: 0.747s;
+          animation-delay: 0.747s;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.spinner-blade:nth-child(11) {
+  -webkit-animation-delay: 0.83s;
+          animation-delay: 0.83s;
+  -webkit-transform: rotate(300deg);
+          transform: rotate(300deg);
+}
+
+.spinner-blade:nth-child(12) {
+  -webkit-animation-delay: 0.913s;
+          animation-delay: 0.913s;
+  -webkit-transform: rotate(330deg);
+          transform: rotate(330deg);
+}
+
+@-webkit-keyframes spinner-fade {
+  0% {
+    background-color: #111111;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes spinner-fade {
+  0% {
+    background-color: #111111;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
 .text-gray {
   color: #72808e;
 }
@@ -1440,7 +1636,7 @@ hr {
   margin-top: 40px;
 }
 
-.formLogin input[type="text"], .formLogin input[type="password"] {
+.formLogin input[type="number"], .formLogin input[type="password"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
@@ -1465,10 +1661,14 @@ hr {
 }
 
 .formLogin input[type="submit"] {
-  margin: 0 auto;
+  margin: 3vh auto 0;
   display: block;
   font-size: 20px;
-  margin-top: 25px;
+  height: 48px;
+}
+
+.areaTyc {
+  padding: 8px 0 10px;
 }
 
 .petForm input[type="text"], .petForm input[type="number"],

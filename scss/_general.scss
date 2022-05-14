@@ -188,15 +188,30 @@ h1, h2, h3, h4, h5, h6{
 //login Inicial
 
 .body-login{
+height: 92vh;
+}
+
+.dogA{
+  background-image: url("../img/pet2.png");
+  background-size: 48vh;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.dogB{
+  background-image: url("../img/pet3.png");
+  background-size: 35vh;
+  background-repeat: no-repeat;
+  background-position: right bottom;
 
 }
 
 .padding-section{
-  padding:0 10vw; 
+  padding:0 6vw; 
 }
 
 .login-description{
-  padding: 20px 0;
+  padding: 16px 0;
   p{
     color: #927d10;
     padding-top: 8px;
@@ -445,6 +460,7 @@ h1, h2, h3, h4, h5, h6{
     color: $white;
     padding: 5px 20px;
     border-radius: 1rem;
+    font-size: 13px;
   }
   &-infoOwner{
     padding: 20px 0 10px;
@@ -458,6 +474,28 @@ h1, h2, h3, h4, h5, h6{
     }
     h4{
       font-size: 18px;
+    }
+  }
+  &-qrSec{
+    display: flex;
+    justify-content: left;
+    padding: 30px 0 14px;
+  }
+  &-qr{
+    width: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    img{
+      display: block;
+      max-width: 80%;
+      width: 80%;
+      position: absolute;
+    }
+    object{
+      position: absolute;
     }
   }
 }

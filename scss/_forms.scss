@@ -2,7 +2,7 @@
 
 .formLogin{
   margin-top: 40px;
-    input[type="text"], input[type="password"]{
+    input[type="number"], input[type="password"]{
       -webkit-appearance: none;
       -moz-appearance: none;
       border: none;
@@ -24,12 +24,17 @@
     color: #c5aa1d;
   }
   input[type="submit"]{
-    margin: 0 auto;
+    margin: 3vh auto 0;
     display: block;
     font-size: 20px;
-    margin-top: 25px;
+    height: 48px;
   }
+  
 }  
+
+.areaTyc{
+   padding: 8px 0 10px;
+}
 
 .petForm{
   input[type="text"], input[type="number"],

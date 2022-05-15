@@ -38,6 +38,14 @@
   background-color: #baeaf2;
 }
 
+.light-orange-bg {
+  background-color: #f6d3a9;
+}
+
+.light-yellow-bg {
+  background-color: #faf6cb;
+}
+
 .orange-bg {
   background-color: #f18e37;
 }
@@ -124,6 +132,14 @@ hr {
 
 .light-blue-bg {
   background-color: #baeaf2;
+}
+
+.light-orange-bg {
+  background-color: #f6d3a9;
+}
+
+.light-yellow-bg {
+  background-color: #faf6cb;
 }
 
 .orange-bg {
@@ -829,6 +845,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #baeaf2;
 }
 
+.light-orange-bg {
+  background-color: #f6d3a9;
+}
+
+.light-yellow-bg {
+  background-color: #faf6cb;
+}
+
 .orange-bg {
   background-color: #f18e37;
 }
@@ -1048,6 +1072,14 @@ hr {
 
 .light-blue-bg {
   background-color: #baeaf2;
+}
+
+.light-orange-bg {
+  background-color: #f6d3a9;
+}
+
+.light-yellow-bg {
+  background-color: #faf6cb;
 }
 
 .orange-bg {
@@ -1284,6 +1316,14 @@ hr {
   background-color: #baeaf2;
 }
 
+.light-orange-bg {
+  background-color: #f6d3a9;
+}
+
+.light-yellow-bg {
+  background-color: #faf6cb;
+}
+
 .orange-bg {
   background-color: #f18e37;
 }
@@ -1370,6 +1410,14 @@ hr {
 
 .light-blue-bg {
   background-color: #baeaf2;
+}
+
+.light-orange-bg {
+  background-color: #f6d3a9;
+}
+
+.light-yellow-bg {
+  background-color: #faf6cb;
 }
 
 .orange-bg {
@@ -1710,6 +1758,14 @@ hr {
   background-color: #baeaf2;
 }
 
+.light-orange-bg {
+  background-color: #f6d3a9;
+}
+
+.light-yellow-bg {
+  background-color: #faf6cb;
+}
+
 .orange-bg {
   background-color: #f18e37;
 }
@@ -1935,6 +1991,14 @@ hr {
   background-color: #baeaf2;
 }
 
+.light-orange-bg {
+  background-color: #f6d3a9;
+}
+
+.light-yellow-bg {
+  background-color: #faf6cb;
+}
+
 .orange-bg {
   background-color: #f18e37;
 }
@@ -2031,6 +2095,16 @@ hr {
 .card2-line {
   height: 9px;
   background: #f2890b;
+}
+
+.card2-lineBlue {
+  height: 9px;
+  background: #06c9ef;
+}
+
+.card2-lineYellow {
+  height: 9px;
+  background: #ffc332;
 }
 
 .card2-title {

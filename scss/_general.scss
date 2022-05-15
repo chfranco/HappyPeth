@@ -310,6 +310,13 @@ height: 92vh;
   }
 }
 
+
+.section-addPetB{
+  display: -webkit-box;
+  overflow-x: scroll;
+  padding: 0 ;
+}
+
 .homelog-date{
   display: flex;
   margin: 18px 0 8px;
@@ -523,3 +530,32 @@ height: 92vh;
 .marginEvent{
   margin-bottom: 26px;
 }
+
+//new agenda
+
+.sectionAdd{
+  display: flex;
+  justify-content: space-between;
+}
+
+.SectForm{
+  margin-top: 20px;
+  h3{
+    margin: 20px 0;
+  }
+}
+
+.sectionSwitch{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  p{
+    font-size: 13px;
+    padding-right: 10px;
+  }
+}
+
+.marginPet{
+  margin: 20px 0;
+}
+

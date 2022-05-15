@@ -36,16 +36,29 @@ $blue-light-text:#009fee;
 }
 
 .blue-textE{
-    color: $greenish-blue;
+    color: #059fbd;
+}
+
+.orange-textF{
+    color: #c9762e;
 }
 
 .yellow-textF{
-    color: $yellow;
+    color: #c09226;
+}
+
+.blue-textG{
+   color: $greenish-blue
 }
 
 .lightBlue-textB{
     color: $light-blue;
 }
+
+.lightBlue-textC{
+    color: $light-blue;
+}
+
 
 .yelllow-bg{
     background-color: $yellow;
@@ -62,7 +75,6 @@ $blue-light-text:#009fee;
 .light-yellow-bg{
     background-color: #faf6cb;
 }
-
 
 .orange-bg{
     background-color: $soft-orange;

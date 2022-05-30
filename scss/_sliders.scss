@@ -1,154 +1,154 @@
 @import 'variables';
 
-*{
-  margin: 0;
-}
+// *{
+//   margin: 0;
+// }
 
-@mixin setupSlide($id, $pos) {
-    $idId: '#' + $id;
-    #{$idId}:checked {
-      ~ .slider {
-        transform: translateX(-$pos * 100vw);
-      }
-      ~ nav {
-        label {
-          display: none;
-        }
-        label.#{$id} {
-          display: initial;
-        }
-        .buttons {
-          user-select: none;
+// @mixin setupSlide($id, $pos) {
+//     $idId: '#' + $id;
+//     #{$idId}:checked {
+//       ~ .slider {
+//         transform: translateX(-$pos * 100vw);
+//       }
+//       ~ nav {
+//         label {
+//           display: none;
+//         }
+//         label.#{$id} {
+//           display: initial;
+//         }
+//         .buttons {
+//           user-select: none;
           
-          label {
-            display: inline-block;
-          }
-          label[for="#{$id}"] {
-            cursor: default;
-            opacity: 1;
-          }
-        }
-      }
-    }  
-  }
+//           label {
+//             display: inline-block;
+//           }
+//           label[for="#{$id}"] {
+//             cursor: default;
+//             opacity: 1;
+//           }
+//         }
+//       }
+//     }  
+//   }
 
-  @include setupSlide('my-tree', 0);
-  @include setupSlide('profile', 1);
-  @include setupSlide('people-select', 2);
-  @include setupSlide('leaves', 3);
+//   @include setupSlide('my-tree', 0);
+//   @include setupSlide('profile', 1);
+//   @include setupSlide('people-select', 2);
+//   @include setupSlide('leaves', 3);
   
-  input[type="radio"] {
-    position: fixed;
-    top: -100vh;
-  }
-  label {
-    cursor: pointer;
-    opacity: 0.5;
+//   input[type="radio"] {
+//     position: fixed;
+//     top: -100vh;
+//   }
+//   label {
+//     cursor: pointer;
+//     opacity: 0.5;
     
-    &:hover {
-      opacity: 0.75;
-    }
-  }
-  nav {
-    position: fixed;
-    width: 100vw;
-    left: 0;
-    bottom: 0;
-    height: 100vh;
-    text-align: center;
+//     &:hover {
+//       opacity: 0.75;
+//     }
+//   }
+//   nav {
+//     position: fixed;
+//     width: 100vw;
+//     left: 0;
+//     bottom: 0;
+//     height: 100vh;
+//     text-align: center;
   
-    .done {
-      font-size: 2em;
-      font-weight: bold;
-      color: white;
-      position: absolute;
-      right: 1em;
-      bottom: 1em;
-    }
-    .buttons {
-      display: block;
-      margin: 0 auto;
-      position: absolute;
-      width: 100%;
-      left: 0;
-      color:#06c9ef;
-      top: 1.8em;
+//     .done {
+//       font-size: 2em;
+//       font-weight: bold;
+//       color: white;
+//       position: absolute;
+//       right: 1em;
+//       bottom: 1em;
+//     }
+//     .buttons {
+//       display: block;
+//       margin: 0 auto;
+//       position: absolute;
+//       width: 100%;
+//       left: 0;
+//       color:#06c9ef;
+//       top: 1.8em;
       
-      label {
-        font-size: 2em;
-        width: 9mm;
-      }
-    }
-    .prev, .next {
-      position: absolute;
-      width: 50vw;
-      top: 0;
-      height: 100vh;
-    } 
-    .prev {
-      left: 0;
-    }
-    .next {
-      right: 0;
-    }
-  }
-  .slider {
-    width: 4 * 100vw;
-    position: fixed;
-    transform: translate3d(0,0,0);
-    transition: transform 0.3s ease;
-    color: white; 
-  }
-  .slide {
-    text-align: center;
-    float: left;
-    height: 100vh;
-    width: 100vw;
+//       label {
+//         font-size: 2em;
+//         width: 9mm;
+//       }
+//     }
+//     .prev, .next {
+//       position: absolute;
+//       width: 50vw;
+//       top: 0;
+//       height: 100vh;
+//     } 
+//     .prev {
+//       left: 0;
+//     }
+//     .next {
+//       right: 0;
+//     }
+//   }
+//   .slider {
+//     width: 4 * 100vw;
+//     position: fixed;
+//     transform: translate3d(0,0,0);
+//     transition: transform 0.3s ease;
+//     color: white; 
+//   }
+//   .slide {
+//     text-align: center;
+//     float: left;
+//     height: 100vh;
+//     width: 100vw;
     
-    img {
-      display: block;
-      max-height: 70%;
-      max-width: 100%;
-      margin: auto;
-    }
-    h2 {
-      display: inline-block;
-      font-size: 5vh;
-      font-weight: normal;
-      text-align: left;
-      margin: 0 2em;
-    }
-  }
-  #my-tree-slide {
-    background-color: white;
-    background-image: url('../img/pet1.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    background-size: 46vh;
-    p{
-      color: $blue-light-text;
-      margin: 0 0 20px;
-    }
-  }
-  #profile-slide {
-    background-color: #baeaf2;
-  }
-  #people-select-slide {
-    background-color: white;
-  }
-  #leaves-slide {
-    background-color: #baeaf2;
-    h2 {
-      margin-top: 1em;
-      line-height: 100vh;
-      vertical-align: middle;
-    }
-  }
+//     img {
+//       display: block;
+//       max-height: 70%;
+//       max-width: 100%;
+//       margin: auto;
+//     }
+//     h2 {
+//       display: inline-block;
+//       font-size: 5vh;
+//       font-weight: normal;
+//       text-align: left;
+//       margin: 0 2em;
+//     }
+//   }
+//   #my-tree-slide {
+//     background-color: white;
+//     background-image: url('../img/pet1.jpg');
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     background-position: bottom left;
+//     background-size: 46vh;
+//     p{
+//       color: $blue-light-text;
+//       margin: 0 0 20px;
+//     }
+//   }
+//   #profile-slide {
+//     background-color: #baeaf2;
+//   }
+//   #people-select-slide {
+//     background-color: white;
+//   }
+//   #leaves-slide {
+//     background-color: #baeaf2;
+//     h2 {
+//       margin-top: 1em;
+//       line-height: 100vh;
+//       vertical-align: middle;
+//     }
+//   }
   
-  .contentSlide{
-    margin-top: 16Vh;
-    position:relative;
-    height: 70vh;
-  }
+//   .contentSlide{
+//     margin-top: 16Vh;
+//     position:relative;
+//     height: 70vh;
+//   }
 

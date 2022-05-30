@@ -83,16 +83,25 @@ $blue-light-text:#009fee;
 .orange-gradient{
     background: rgb(245,161,58);
     background: linear-gradient(180deg, rgba(245,161,58,1) 0%, rgba(242,137,13,1) 100%);
+    &:hover{
+        background: linear-gradient(180deg, rgba(244, 154, 48, 1) 50%, rgba(248, 193, 124, 1) 100%);
+    }
 }
 
 .orange-light-gradient{
     background: rgb(244,164,94);
     background: linear-gradient(180deg, rgba(244,164,94,1) 0%, rgba(241,145,59,1) 100%);
+    &:hover{
+        background: linear-gradient(180deg, rgba(244, 175, 118, 1) 0%, rgba(247, 210, 176, 1) 100%);
+    }
 }
 
 .blue-light-gradient{
     background: rgb(199,238,245);
     background: linear-gradient(180deg, rgba(199,238,245,1) 0%, rgba(186,234,241,1) 100%);
+    &:hover{
+        background: linear-gradient(180deg, rgba(222, 246, 249,1) 0%, rgba(205, 244, 247,1) 100%);    
+    }
 }
 
 .blue-green-gradient{
@@ -100,14 +109,34 @@ $blue-light-text:#009fee;
     background: linear-gradient(180deg, rgba(54,211,241,1) 0%, rgba(10,202,239,1) 100%);
 }
 
+.blue-green-gradientB{
+    background: rgb(54,211,241);
+    background: linear-gradient(180deg, rgba(54,211,241,1) 0%, rgba(10,202,239,1) 100%);
+    &:hover{
+        background: linear-gradient(180deg, rgba(110, 232, 249, 1) 0%, rgba(47, 221, 244, 1) 100%);    
+    }
+}
+
+
 .yellow-dark-gradient{
     background: rgb(247,191,57);
-    background: linear-gradient(180deg, rgba(247,191,57,1) 0%, rgba(246,177,12,1) 100%);    
+    background: linear-gradient(180deg, rgba(247,191,57,1) 0%, rgba(246,177,12,1) 100%);
+    &:hover{
+        background: linear-gradient(180deg, rgba(255, 208, 125, 1) 50%, rgba(255, 194, 72,1) 100%);
+    }    
 }
 
 .yellow-light-gradient{
     background: rgb(248,222,83);
     background: linear-gradient(180deg, rgba(248,222,83,1) 0%, rgba(247,213,45,1) 100%);
+}
+
+.yellow-light-gradientB{
+    background: rgb(248,222,83);
+    background: linear-gradient(180deg, rgba(248,222,83,1) 0%, rgba(247,213,45,1) 100%);
+    &:hover{
+        background: linear-gradient(180deg, rgba(252, 229, 134, 1) 0%, rgba(249, 221, 100, 1) 100%);
+    }  
 }
 
 // $error: $red;

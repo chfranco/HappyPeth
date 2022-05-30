@@ -96,14 +96,18 @@
   margin-bottom:20px; 
   input,select{
     font-size:18px;
-    padding:10px 10px 10px 5px;
+    padding:10px;
     display:block;
     width:100%;
-    color:#999; 
+    color:#d3d3d3; 
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border:2px solid;
   }
   
-  label 				 {
-    color:#999; 
+  label {
+    color:#d3d3d3; 
     font-size:18px;
     font-weight:normal;
     position:absolute;
@@ -112,14 +116,23 @@
     transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
+    
   }
 
-  input:focus ~ label, input:valid ~ label 		{
+  input:focus ~ label, input:valid ~ label {
     top:-8px;
     font-size:12px;
-    color:#999;
-    background-color: #fff;
+    color:#06c9ef;
     padding: 0 10px;
+    background: $white;
+  }
+  
+  textarea:focus, input:focus, input[type]:focus, select:focus {
+    border: solid 2px #06c9ef;
+    outline: 0 none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
   }
 
 }

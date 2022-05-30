@@ -14,8 +14,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.cls-1:hover{
-    fill:red
+    &:hover{
+       background:red;
+       
+    }
 }

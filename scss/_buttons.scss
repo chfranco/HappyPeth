@@ -24,6 +24,10 @@
 .btn-card{
   width: 226px;
   border-radius: 2rem;
+  i{
+    font-size: 26px;
+    
+  }
 }
 
 .btn-big{
@@ -61,6 +65,10 @@
   &-pet{
     font-size: 22px;
     margin: 0 auto;
+  }
+  i{
+    font-size: 24px;
+    padding-left: 8px;
   }
 }
 

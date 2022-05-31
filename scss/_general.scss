@@ -291,6 +291,10 @@ height: 92vh;
 .addEvent{
   display: flex;
   align-items: center;
+  i{
+    color: $black;
+    font-size: 21px;
+  }
 }
 
 //homelog

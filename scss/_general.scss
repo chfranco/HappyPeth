@@ -291,9 +291,22 @@ height: 92vh;
 .addEvent{
   display: flex;
   align-items: center;
+  position: relative;
   i{
     color: $black;
     font-size: 21px;
+    position: relative;
+  }
+  .notificacion{
+    height: 8.5px;
+    width: 8.5px;
+    border-radius: 50%;
+    background-color: $blue-dark-text;
+    border: solid .5px white;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    z-index: 1;
   }
 }
 

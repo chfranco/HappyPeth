@@ -30,10 +30,24 @@
     h3{
         font-size: 24px;
     }
-    i{
-        color: $black;
-        font-size: 24px;
+    .secNotifi{
+            
+        i{
+            color: $black;
+            font-size: 24px;
+        }
+        .notificacion{
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            background-color:$greenish-blue;
+            position: absolute;
+            top: 20px;
+            right: 22px;
+            z-index: 1;
+        }
     }
+
 }
 
 .nav{

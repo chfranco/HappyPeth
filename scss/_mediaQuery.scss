@@ -1,0 +1,33 @@
+@import 'variables';
+
+
+@mixin smartphone {
+    @media (max-width: 480px){
+        @content;
+    }
+}
+
+@mixin tablets {
+    @media (min-width: 481px) and(max-width: 720px){
+        @content;
+        
+    }
+}
+
+@mixin desktops {
+    @media (min-width: 721px) and (max-width: 1022px){
+        @content;
+    }
+}
+
+@mixin desktopsHD {
+    @media (min-width:1024px) and (max-width: 1280px){
+        @content;
+    }
+}
+
+@mixin desktopsFullHD {
+    @media (min-width:1280px) and (max-width: 1920px){
+        @content;
+    }
+}

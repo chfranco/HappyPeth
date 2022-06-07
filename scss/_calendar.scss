@@ -18,14 +18,22 @@
         grid-template-columns: repeat(7, 1fr);
         font-size: 14px; 
         div{
-            width: 40px;
             height: 30px;
             display: flex;
             align-items: center;
             justify-content: end;
-            padding: 6px;
             margin-bottom: 3px;
+            place-self: center;
+            font-size: 13px;
+            @include tablets{
+            padding: 1px;
+            }
         } 
+        .day{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
     }
 }
 
@@ -68,9 +76,9 @@
     height: 25px!important;
     color: white;
     border-radius: 50%;
-    margin-left: 15px;
-    margin-top: 2px;
+    padding-left: 1px;
     font-size: 11px;
+    padding: 5px;
 }
 
 .agendaDay{
@@ -79,6 +87,37 @@
     display: flex !important;
     border-radius: 31px;
     justify-content: center !important;
-    width: 32px!important;
-    margin-left: 10px!important;
+    width: 25px!important;
+    height: 25px!important;
+    border-radius: 50%;
+    margin-top: -1px;
+    font-size: 11px;
+    padding: 5px;
+}
+
+.events{
+    display:flex;
+    height: 10px;
+}
+
+.event1{
+    background: $greenish-blue;
+    height: 6px!important;
+    width: 6px!important;
+    border-radius: 50%;
+    margin: 1px;
+}
+.event2{
+    background: #f2890b;
+    height: 6px!important;
+    width: 6px!important;
+    border-radius: 50%;
+    margin: 1px;
+}
+.event3{
+    background: #ffc332;
+    height: 6px!important;
+    width: 6px!important;
+    border-radius: 50%;
+    margin: 1px;
 }

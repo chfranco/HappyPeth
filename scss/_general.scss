@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mediaQuery';
 
 *{
   box-sizing: border-box;
@@ -7,6 +8,7 @@ html{
   font-family: 'Exo 2', sans-serif;
 }
 body{
+
   &.marginApp{
     margin:70px 0 90px;
     padding: 0;
@@ -83,20 +85,21 @@ h1, h2, h3, h4, h5, h6{
   // background-color: darken($dark, 8%);
   min-height: 100vh;
 }
-.container{
-  max-width: $md;
-  margin: 0 auto;
-  padding: 0 .7rem;
-  &.container-alt{
-    max-width: 312px;
-    @media (min-width: $md){
-      max-width: $sm;
-    }
-  }
-}
 
 .paddingSection-app{
  padding: 0 6vw;
+ @include tablets{
+  padding:0 10%; 
+}
+@include desktops{
+  padding:0 20%; 
+}
+@include desktopsHD{
+  padding:0 22%; 
+}
+@include desktopsFullHD{
+  padding:0 25%; 
+}
 }
 
 .mb-1{
@@ -264,6 +267,19 @@ height: 92vh;
 //home
 .paddingSection-home{
   padding:0 3%; 
+
+  @include tablets{
+    padding:0 10%; 
+  }
+  @include desktops{
+    padding:0 20%; 
+  }
+  @include desktopsHD{
+    padding:0 22%; 
+  }
+  @include desktopsFullHD{
+    padding:0 25%; 
+  }
   .singletitle{
     color: $greenish-blue;
   }
@@ -320,6 +336,18 @@ height: 92vh;
   display: -webkit-box;
   overflow-x: scroll;
   padding: 0 22px;
+  @include tablets{
+    padding:0 10%; 
+  }
+  @include desktops{
+    padding:0 20%; 
+  }
+  @include desktopsHD{
+    padding:0 22%; 
+  }
+  @include desktopsFullHD{
+    padding:0 25%; 
+  }
   .pet{
     margin:1%;
     p{
@@ -359,6 +387,18 @@ height: 92vh;
 
 .qr-pet{
   width: 80%;
+  @include tablets{
+    width: 300px;
+  }
+  @include desktops{
+    width: 300px;
+  }
+  @include desktopsHD{
+    width: 380px;
+  }
+  @include desktopsFullHD{
+    width: 400px;
+  }
 }
 
 .ghostBtn{

@@ -215,6 +215,18 @@ height: 92vh;
 
 .padding-section{
   padding:0 6vw; 
+  @include tablets{
+    padding:0 10%; 
+  }
+  @include desktops{
+    padding:0 20%; 
+  }
+  @include desktopsHD{
+    padding:0 22%; 
+  }
+  @include desktopsFullHD{
+    padding:0 32%; 
+  }
 }
 
 .login-description{

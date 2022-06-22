@@ -87,9 +87,7 @@
         text-decoration:none;
         padding:10px 30px;
         background: transform 0.2s;
-        &:hover{
-            background: #eeeeee;
-        }
+
     }
     &-overlay{
         position: fixed;
@@ -122,5 +120,8 @@
     margin-right: 14px;
     img{
         width: 20px;
+    }
+    &:hover{
+        background: #eeeeee;
     }
 }

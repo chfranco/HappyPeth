@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="./scss/style.css">
   <title>Home</title>
 </head>
-<body>
+<body class="slidefull">
 
     <input type="radio" id="my-tree" name="slide-choice" checked>
     <input type="radio" id="profile" name="slide-choice">
@@ -64,32 +64,32 @@
                 consetido de tu casa!
             </p>
         </div>
-        <button class="btn btn-normal blue-green-gradient btn-slide font-weightA">Iniciar</button>
+        <!-- <button class="btn btn-normal blue-green-gradient btn-slide font-weightA">Iniciar</button> -->
       </div>
 
     </div>
     
-    <nav>
+    <nav class="navSlide">
 
-      <label class="next my-tree" title="Next to profile" for="profile"></label>
-      <label class="done my-tree" title="Next to profile" for="profile"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+      <label class="next my-tree labelSplash" title="Next to profile" for="profile"></label>
+      <label class="done my-tree labelSplash" title="Next to profile" for="profile"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
     
-      <label class="prev profile" title="Back to tree" for="my-tree"></label>
-      <label class="next profile" title="Next to people selection" for="people-select"></label>
-      <label class="done profile" title="Next to people selection" for="people-select"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+      <label class="prev profile labelSplash" title="Back to tree" for="my-tree"></label>
+      <label class="next profile labelSplash" title="Next to people selection" for="people-select"></label>
+      <label class="done profile labelSplash" title="Next to people selection" for="people-select"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
     
-      <label class="prev people-select" title="Back to profile" for="profile"></label>
-      <label class="next people-select" title="Next is let's go!" for="leaves"></label>
-      <label class="done people-select" title="Next is let's go!" for="leaves"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
+      <label class="prev people-select labelSplash" title="Back to profile" for="profile"></label>
+      <label class="next people-select labelSplash" title="Next is let's go!" for="leaves"></label>
+      <label class="done people-select labelSplash" title="Next is let's go!" for="leaves"><i class="fa fa-angle-right" aria-hidden="true"></i></label>
     
-      <label class="prev leaves" title="Back to people selection" for="people-select"></label>
-      <label class="done leaves" title="Let's go!"><i class="fa fa-check" aria-hidden="true"></i></label>
+      <label class="prev leaves labelSplash" title="Back to people selection" for="people-select"></label>
+      <label class="done leaves labelSplash" title="Let's go!"><i class="fa fa-check" aria-hidden="true"></i></label>
     
       <div class="buttons">
-        <label for="my-tree" title="Tree">●</label>
-        <label for="profile" title="Profile">●</label>
-        <label for="people-select" title="People selection">●</label>
-        <label for="leaves" title="Let's go!">●</label>
+        <label for="my-tree labelSplash" title="Tree">●</label>
+        <label for="profile labelSplash" title="Profile">●</label>
+        <label for="people-select labelSplash" title="People selection">●</label>
+        <label for="leaves labelSplash" title="Let's go!">●</label>
       </div>
 
     </nav>

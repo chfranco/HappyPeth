@@ -2468,10 +2468,6 @@ hr {
   background: transform 0.2s;
 }
 
-.nav-link:hover {
-  background: #eeeeee;
-}
-
 .nav-overlay {
   position: fixed;
   top: 0;
@@ -2511,6 +2507,10 @@ hr {
 
 .item img {
   width: 20px;
+}
+
+.item:hover {
+  background: #eeeeee;
 }
 
 .text-white {
@@ -2719,6 +2719,425 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.slidefull {
+  margin: 0;
+}
+
+#my-tree:checked ~ .slider {
+  -webkit-transform: translateX(0vw);
+          transform: translateX(0vw);
+}
+
+#my-tree:checked ~ nav label {
+  display: none;
+}
+
+#my-tree:checked ~ nav label.my-tree {
+  display: initial;
+}
+
+#my-tree:checked ~ nav .buttons {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#my-tree:checked ~ nav .buttons .labelSplash {
+  display: inline-block;
+}
+
+#my-tree:checked ~ nav .buttons label[for="my-tree"] {
+  cursor: default;
+  opacity: 1;
+}
+
+#profile:checked ~ .slider {
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
+}
+
+#profile:checked ~ nav label {
+  display: none;
+}
+
+#profile:checked ~ nav label.profile {
+  display: initial;
+}
+
+#profile:checked ~ nav .buttons {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#profile:checked ~ nav .buttons .labelSplash {
+  display: inline-block;
+}
+
+#profile:checked ~ nav .buttons label[for="profile"] {
+  cursor: default;
+  opacity: 1;
+}
+
+#people-select:checked ~ .slider {
+  -webkit-transform: translateX(-200vw);
+          transform: translateX(-200vw);
+}
+
+#people-select:checked ~ nav label {
+  display: none;
+}
+
+#people-select:checked ~ nav label.people-select {
+  display: initial;
+}
+
+#people-select:checked ~ nav .buttons {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#people-select:checked ~ nav .buttons .labelSplash {
+  display: inline-block;
+}
+
+#people-select:checked ~ nav .buttons label[for="people-select"] {
+  cursor: default;
+  opacity: 1;
+}
+
+#leaves:checked ~ .slider {
+  -webkit-transform: translateX(-300vw);
+          transform: translateX(-300vw);
+}
+
+#leaves:checked ~ nav label {
+  display: none;
+}
+
+#leaves:checked ~ nav label.leaves {
+  display: initial;
+}
+
+#leaves:checked ~ nav .buttons {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#leaves:checked ~ nav .buttons .labelSplash {
+  display: inline-block;
+}
+
+#leaves:checked ~ nav .buttons label[for="leaves"] {
+  cursor: default;
+  opacity: 1;
+}
+
+input[type="radio"] {
+  position: fixed;
+  top: -100vh;
+}
+
+.labelSplash {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.labelSplash:hover {
+  opacity: 0.75;
+}
+
+.navSlide {
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  text-align: center;
+}
+
+.navSlide .done {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+}
+
+.navSlide .buttons {
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  color: #06c9ef;
+  top: 1.8em;
+}
+
+.navSlide .buttons .labelSplash {
+  font-size: 2em;
+  width: 9mm;
+}
+
+.navSlide .prev, .navSlide .next {
+  position: absolute;
+  width: 50vw;
+  top: 0;
+  height: 100vh;
+}
+
+.navSlide .prev {
+  left: 0;
+}
+
+.navSlide .next {
+  right: 0;
+}
+
+.slider {
+  width: 400vw;
+  position: fixed;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  color: white;
+}
+
+.slide {
+  text-align: center;
+  float: left;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide img {
+  display: block;
+  max-height: 70%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.slide h2 {
+  display: inline-block;
+  font-size: 5vh;
+  font-weight: normal;
+  text-align: left;
+  margin: 0 2em;
+}
+
+#my-tree-slide {
+  background-color: white;
+  background-image: url("../img/pet1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 46vh;
+}
+
+#my-tree-slide p {
+  color: #009fee;
+  margin: 0 0 20px;
+}
+
+#profile-slide {
+  background-color: #baeaf2;
+}
+
+#people-select-slide {
+  background-color: white;
+}
+
+#leaves-slide {
+  background-color: #baeaf2;
+}
+
+#leaves-slide h2 {
+  margin-top: 1em;
+  line-height: 100vh;
+  vertical-align: middle;
+}
+
+.contentSlide {
+  margin-top: 16Vh;
+  position: relative;
+  height: 70vh;
+}
+
+.btn-slide {
+  position: relative;
+  z-index: 1000;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  height: 408px;
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+  .slideshow-container {
+    height: 530px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1022px) {
+  .slideshow-container {
+    height: 530px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .slideshow-container {
+    height: 530px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1920px) {
+  .slideshow-container {
+    height: 530px;
+  }
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+.fade img {
+  width: 200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+  .fade img {
+    width: 300px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1022px) {
+  .fade img {
+    width: 320px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .fade img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1920px) {
+  .fade img {
+    width: 340px;
+  }
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .text-white {
@@ -3744,6 +4163,11 @@ hr {
 
 .footerClicker .clicker-btn:hover {
   background: #06c9ef;
+}
+
+.footerClicker .clicker-btn img {
+  width: 40px;
+  margin: 0 auto;
 }
 
 .text-white {

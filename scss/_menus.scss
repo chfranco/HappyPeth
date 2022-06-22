@@ -17,11 +17,41 @@
     justify-content: center;
     align-items: center;
     border-radius:12px;
+    color:#101c1d;
     &:hover{
-       background:$black;
+       background:#101c1d;
        color: white;
     }
     i{
         font-size: 30px;
+    }
+}
+
+.footerClicker{
+    background: $greenish-blue;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    border-radius: 30px 30px 0  0;
+    box-shadow: -5px 9px 49px 4px rgba(62, 44, 120, .5);
+    .clicker-btn{
+        height:120px;
+        width:120px;
+        border-radius: 50%;
+        border: solid 6px white;
+        background-color: #44cbe5;
+        margin: -80px auto 0;
+        box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, .5);
+        &:hover{
+            background: $greenish-blue;
+        }
     }
 }

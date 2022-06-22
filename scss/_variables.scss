@@ -14,6 +14,9 @@ $text: #3c3c3c;
 $blue-dark-text:#056ea1; 
 $blue-light-text:#009fee; 
 
+.text-white{
+    color: $white;
+}
 
 .text-gray{
     color: #72808e;
@@ -87,6 +90,12 @@ $blue-light-text:#009fee;
     background-color: #faf6cb;
 }
 
+.bg-gray{
+    background: rgb(240, 242, 243);
+    background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255,255,255) 100%);
+}
+
+
 .orange-bg{
     background-color: $soft-orange;
 }
@@ -149,6 +158,7 @@ $blue-light-text:#009fee;
         background: linear-gradient(180deg, rgba(252, 229, 134, 1) 0%, rgba(249, 221, 100, 1) 100%);
     }  
 }
+
 
 // borer radius
 $br-lg: 20px;

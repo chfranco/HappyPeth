@@ -175,7 +175,7 @@
     @include desktopsFullHD{
         height: 530px;
     }
-  }
+
   
   /* Hide the images by default */
   .mySlides {
@@ -271,3 +271,5 @@
     from {opacity: .4}
     to {opacity: 1}
   }
+
+}

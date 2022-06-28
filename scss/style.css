@@ -75,9 +75,8 @@
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -85,81 +84,61 @@
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -171,13 +150,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -186,7 +164,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -196,7 +174,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -283,9 +261,8 @@ hr {
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -293,81 +270,61 @@ hr {
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -379,13 +336,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -394,7 +350,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -404,7 +360,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -491,9 +447,8 @@ hr {
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -501,81 +456,61 @@ hr {
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -587,13 +522,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -602,7 +536,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -612,7 +546,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -623,24 +557,21 @@ hr {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 
 body.marginApp {
   margin: 70px 0 90px;
   padding: 0;
 }
-
 body.overlayed {
   position: relative;
   overflow: hidden;
 }
-
 body.bg-yellow {
   background-color: #f7d62b;
 }
@@ -650,7 +581,7 @@ body.bg-yellow {
 }
 
 p {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   margin: 0;
 }
 
@@ -709,25 +640,21 @@ h1, h2, h3, h4, h5, h6 {
 .paddingSection-app {
   padding: 0 6vw;
 }
-
 @media (min-width: 481px) and (max-width: 720px) {
   .paddingSection-app {
     padding: 0 10%;
   }
 }
-
 @media (min-width: 721px) and (max-width: 1022px) {
   .paddingSection-app {
     padding: 0 20%;
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1280px) {
   .paddingSection-app {
     padding: 0 22%;
   }
 }
-
 @media (min-width: 1280px) and (max-width: 1920px) {
   .paddingSection-app {
     padding: 0 25%;
@@ -812,14 +739,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   top: 0;
   z-index: 101;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .gradient-overlay {
   position: fixed;
   height: 6rem;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.95)));
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.95) 100%);
   bottom: 0;
   z-index: 40;
@@ -829,7 +755,6 @@ h1, h2, h3, h4, h5, h6 {
 .splash {
   margin-top: 15vh;
 }
-
 .splash img {
   max-width: 600px;
   margin: 0 auto;
@@ -856,25 +781,21 @@ h1, h2, h3, h4, h5, h6 {
 .padding-section {
   padding: 0 6vw;
 }
-
 @media (min-width: 481px) and (max-width: 720px) {
   .padding-section {
     padding: 0 10%;
   }
 }
-
 @media (min-width: 721px) and (max-width: 1022px) {
   .padding-section {
     padding: 0 20%;
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1280px) {
   .padding-section {
     padding: 0 22%;
   }
 }
-
 @media (min-width: 1280px) and (max-width: 1920px) {
   .padding-section {
     padding: 0 32%;
@@ -884,7 +805,6 @@ h1, h2, h3, h4, h5, h6 {
 .login-description {
   padding: 16px 0;
 }
-
 .login-description p {
   color: #927d10;
   padding-top: 8px;
@@ -892,25 +812,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .button-section {
   background: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
 }
-
 .button-section .sec-left p {
   text-align: right;
   color: #927d10;
   padding-top: 18px;
   padding-right: 15px;
 }
-
 .button-section a {
   background: #06c9ef;
   color: white;
@@ -919,18 +833,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   width: 160px;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .tyc {
   font-size: 14px;
 }
-
 .tyc a {
   color: black;
 }
@@ -938,52 +847,39 @@ h1, h2, h3, h4, h5, h6 {
 .paddingSection-home {
   padding: 0 3%;
 }
-
 @media (min-width: 481px) and (max-width: 720px) {
   .paddingSection-home {
     padding: 0 10%;
   }
 }
-
 @media (min-width: 721px) and (max-width: 1022px) {
   .paddingSection-home {
     padding: 0 20%;
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1280px) {
   .paddingSection-home {
     padding: 0 22%;
   }
 }
-
 @media (min-width: 1280px) and (max-width: 1920px) {
   .paddingSection-home {
     padding: 0 25%;
   }
 }
-
 .paddingSection-home .singletitle {
   color: #06c9ef;
 }
 
 .sectionAdd-home {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 10px 0;
 }
-
 .sectionAdd-home h3 {
   color: #06c9ef;
 }
-
 .sectionAdd-home a {
   color: #f17c5c;
   text-decoration: none;
@@ -995,27 +891,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .addEvent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
 }
-
 .addEvent i {
   color: black;
   font-size: 21px;
   position: relative;
 }
-
 .addEvent .notificacion {
   height: 8.5px;
   width: 8.5px;
   border-radius: 50%;
   background-color: #056ea1;
-  border: solid .5px white;
+  border: solid 0.5px white;
   position: absolute;
   top: 0;
   right: 5px;
@@ -1032,39 +922,32 @@ h1, h2, h3, h4, h5, h6 {
   overflow-x: scroll;
   padding: 0 22px;
 }
-
 @media (min-width: 481px) and (max-width: 720px) {
   .section-addPet {
     padding: 0 10%;
   }
 }
-
 @media (min-width: 721px) and (max-width: 1022px) {
   .section-addPet {
     padding: 0 20%;
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1280px) {
   .section-addPet {
     padding: 0 22%;
   }
 }
-
 @media (min-width: 1280px) and (max-width: 1920px) {
   .section-addPet {
     padding: 0 25%;
   }
 }
-
 .section-addPet .pet {
   margin: 1%;
 }
-
 .section-addPet .pet p {
   color: #323d59;
 }
-
 .section-addPet .img-petAdd {
   margin-top: 17px;
 }
@@ -1076,16 +959,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .homelog-date {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 18px 0 8px;
 }
-
 .homelog-date h3 {
   font-weight: 600;
 }
-
 .homelog-date span {
   font-size: 16px;
   padding-left: 4px;
@@ -1100,25 +979,21 @@ h1, h2, h3, h4, h5, h6 {
 .qr-pet {
   width: 80%;
 }
-
 @media (min-width: 481px) and (max-width: 720px) {
   .qr-pet {
     width: 300px;
   }
 }
-
 @media (min-width: 721px) and (max-width: 1022px) {
   .qr-pet {
     width: 300px;
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1280px) {
   .qr-pet {
     width: 380px;
   }
 }
-
 @media (min-width: 1280px) and (max-width: 1920px) {
   .qr-pet {
     width: 400px;
@@ -1143,23 +1018,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sectionAdd-plan {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: left;
+  align-items: center;
   margin-top: -5px;
 }
-
 .sectionAdd-plan img {
   width: 40px;
   margin-bottom: -10px;
 }
-
 .sectionAdd-plan h2 {
   margin: 21px 0 9px 10px;
 }
@@ -1168,36 +1035,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 26px;
   margin-top: 20px;
 }
-
 .plan-subtitle {
   font-size: 18px;
   text-transform: uppercase;
   margin: 5px 0;
 }
-
 .plan-contentA {
   border-top: 2px solid #f2890b;
   border-bottom: 2px solid #f2890b;
   padding: 5px 0 30px;
 }
-
 .plan-contentB {
   border-top: 2px solid #06c9ef;
   border-bottom: 2px solid #06c9ef;
   padding: 5px 0 30px;
 }
-
 .plan-contentC {
   border-top: 2px solid #f7d62b;
   border-bottom: 2px solid #f7d62b;
   padding: 5px 0 30px;
 }
-
 .plan-description {
   padding: 0 2px 0 18px;
   margin-bottom: 5px;
 }
-
 .plan-description li {
   padding-bottom: 10px;
 }
@@ -1207,7 +1068,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #7d7d7d;
   padding: 7px 0 12px;
 }
-
 .aplicaTerminos a {
   color: #7d7d7d;
 }
@@ -1218,23 +1078,19 @@ h1, h2, h3, h4, h5, h6 {
   background-position: top;
   background-position-y: -42px;
 }
-
 .pet-title {
   font-size: 16px;
   font-weight: 600;
   color: #d7d7d7;
 }
-
 .pet-name {
   font-size: 22px;
   padding-bottom: 0;
 }
-
 .pet-breed {
   font-size: 18px;
   margin-bottom: 16px;
 }
-
 .pet-desctription {
   background: #fff;
   height: 64vh;
@@ -1244,12 +1100,10 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   border-radius: 1.6rem 1.6rem 0 0;
 }
-
 .pet-desctription hr {
   margin-top: 10px;
   height: 6px;
 }
-
 .pet-descrip {
   background: #fff;
   height: 77vh;
@@ -1259,41 +1113,24 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   border-radius: 1.6rem 1.6rem 0 0;
 }
-
 .pet-features {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-
 .pet-feature {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background: #fef6ea;
   width: 70px;
   height: 66px;
   border-radius: 15px;
 }
-
 .pet-feature p {
   font-size: 14px;
   padding-bottom: 3px;
 }
-
 .pet-chip {
   background-color: #d7d7d7;
   color: #fff;
@@ -1301,57 +1138,39 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 1rem;
   font-size: 13px;
 }
-
 .pet-infoOwner {
   padding: 20px 0 10px;
 }
-
 .pet-infoOwner h2 {
   font-size: 15px;
   color: #d7d7d7;
   margin-bottom: 20px;
 }
-
 .pet-infoOwner p {
   color: #d7d7d7;
 }
-
 .pet-infoOwner h4 {
   font-size: 18px;
 }
-
 .pet-qrSec {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
+  justify-content: left;
   padding: 30px 0 14px;
 }
-
 .pet-qr {
   width: 80px;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin-right: 10px;
 }
-
 .pet-qr img {
   display: block;
   max-width: 80%;
   width: 80%;
   position: absolute;
 }
-
 .pet-qr object {
   position: absolute;
 }
@@ -1361,29 +1180,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sectionPet {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   margin: 30px 0 0;
 }
 
 .upload {
   height: 35vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .marginEvent {
@@ -1391,32 +1198,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sectionAdd {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .SectForm {
   margin-top: 20px;
 }
-
 .SectForm h3 {
   margin: 20px 0;
 }
 
 .sectionSwitch {
   width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .sectionSwitch p {
   font-size: 13px;
   padding-right: 10px;
@@ -1457,12 +1254,10 @@ h1, h2, h3, h4, h5, h6 {
 .sect-plan li {
   font-size: 13px;
 }
-
 .sect-plan .valor {
   margin: 0 auto;
   font-size: 30px;
 }
-
 .sect-plan h4 {
   text-align: center;
   font-weight: 300;
@@ -1479,16 +1274,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-tricks {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .section-tricks .circle-option {
   background-color: #c3c3c3;
   height: 100px;
@@ -1497,19 +1286,15 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   overflow: hidden;
 }
-
 .section-tricks .circle-option-active {
   border: 3px solid #06c9ef;
 }
-
 .section-tricks .circle-option-disable {
   border: 3px solid #eaeaea;
 }
-
 .section-tricks .circle-option-game {
   border: 3px solid #f2890b;
 }
-
 .section-tricks .select-trick {
   height: 24px;
   width: 24px;
@@ -1530,16 +1315,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-clicker {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   color: #c3c3c3;
   margin-top: 18px;
 }
@@ -1621,9 +1399,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -1631,81 +1408,61 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -1717,13 +1474,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -1732,7 +1488,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -1742,7 +1498,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -1829,9 +1585,8 @@ hr {
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -1839,81 +1594,61 @@ hr {
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -1925,13 +1660,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -1940,7 +1674,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -1950,7 +1684,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -1964,8 +1698,7 @@ hr {
   border: none;
   color: #fff;
   background-color: #333333;
-  -webkit-transition: all ease .4s;
-  transition: all ease .4s;
+  transition: all ease 0.4s;
   font-family: "Exo 2", sans-serif;
   font-size: 1rem;
   text-decoration: none;
@@ -1974,11 +1707,9 @@ hr {
   -webkit-box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, 0.16);
   -moz-box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, 0.16);
 }
-
 .btn:focus {
   outline: none;
 }
-
 .btn object {
   margin-left: -10px;
   margin-right: 13px;
@@ -1988,7 +1719,6 @@ hr {
   width: 226px;
   border-radius: 2rem;
 }
-
 .btn-card i {
   font-size: 26px;
 }
@@ -2015,37 +1745,26 @@ hr {
   margin-right: 0;
   color: #fff;
   text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, 0.16);
   -webkit-box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, 0.16);
   -moz-box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, 0.16);
 }
-
 .btn-small object {
   margin-left: 5px;
 }
-
 .btn-small-pet {
   font-size: 22px;
   margin: 0 auto;
 }
-
 .btn-small i {
   font-size: 24px;
   padding-left: 8px;
 }
 
 .btn-upload {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 15px;
   width: 140px !important;
@@ -2055,12 +1774,8 @@ hr {
 .btn-xSmall {
   height: 30px;
   padding: 10px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   border-radius: 30px;
   color: white !important;
   box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, 0.16);
@@ -2069,15 +1784,9 @@ hr {
 }
 
 .ghostBtn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -2087,18 +1796,11 @@ hr {
   height: 80px;
   border-radius: 50%;
   background: #cacaca;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
 }
-
 .circle i {
   color: #ffffff;
   padding-bottom: 10px;
@@ -2109,15 +1811,9 @@ hr {
   height: 80px;
   border-radius: 50%;
   background: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .triangulo {
@@ -2219,9 +1915,8 @@ hr {
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -2229,81 +1924,61 @@ hr {
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -2315,13 +1990,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -2330,7 +2004,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -2340,7 +2014,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -2351,7 +2025,6 @@ hr {
 }
 
 .preload * {
-  -webkit-transition: none !important;
   transition: none !important;
 }
 
@@ -2361,43 +2034,31 @@ hr {
   top: 0;
   width: 100%;
   height: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   padding: 0 20px;
   z-index: 1;
 }
-
 .headerApp button {
   border: none;
   background: none;
 }
-
 .headerApp .headerAvatar {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-
 .headerApp-background {
   background: #fff;
 }
-
 .headerApp h3 {
   font-size: 24px;
 }
-
 .headerApp .secNotifi i {
   color: black;
   font-size: 24px;
 }
-
 .headerApp .secNotifi .notificacion {
   height: 12px;
   width: 12px;
@@ -2410,25 +2071,16 @@ hr {
 }
 
 .nav-user {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   padding: 20px 0 40px;
 }
-
 .nav-userAvatar {
   width: 60px;
   height: 60px;
   border-radius: 50%;
 }
-
 .nav-links {
   position: fixed;
   top: 0;
@@ -2437,29 +2089,17 @@ hr {
   height: 100vh;
   width: 280px;
   background: white;
-  -webkit-transform: translateX(-280px);
-          transform: translateX(-280px);
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
+  transform: translateX(-280px);
   transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
 }
-
 .nav-open .nav-links {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-box-shadow: 0 0 15px;
-          box-shadow: 0 0 15px;
+  transform: translateX(0);
+  box-shadow: 0 0 15px;
   background: white;
 }
-
 .nav-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   color: black;
   font-weight: bold;
   font-size: 16px;
@@ -2467,7 +2107,6 @@ hr {
   padding: 10px 30px;
   background: transform 0.2s;
 }
-
 .nav-overlay {
   position: fixed;
   top: 0;
@@ -2479,11 +2118,9 @@ hr {
   background: rgba(0, 0, 0, 0.5);
   visibility: hidden;
   opacity: 0;
-  -webkit-transition: opacity 0.3s;
   transition: opacity 0.3s;
   z-index: 3;
 }
-
 .nav-open .nav-overlay {
   visibility: visible;
   opacity: 1;
@@ -2496,19 +2133,13 @@ hr {
 }
 
 .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-right: 14px;
 }
-
 .item img {
   width: 20px;
 }
-
 .item:hover {
   background: #eeeeee;
 }
@@ -2590,9 +2221,8 @@ hr {
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -2600,81 +2230,61 @@ hr {
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -2686,13 +2296,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -2701,7 +2310,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -2711,7 +2320,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -2726,122 +2335,98 @@ hr {
 }
 
 #my-tree:checked ~ .slider {
-  -webkit-transform: translateX(0vw);
-          transform: translateX(0vw);
+  transform: translateX(0vw);
 }
-
 #my-tree:checked ~ nav label {
   display: none;
 }
-
 #my-tree:checked ~ nav label.my-tree {
   display: initial;
 }
-
 #my-tree:checked ~ nav .buttons {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
-
 #my-tree:checked ~ nav .buttons .labelSplash {
   display: inline-block;
 }
-
-#my-tree:checked ~ nav .buttons label[for="my-tree"] {
+#my-tree:checked ~ nav .buttons label[for=my-tree] {
   cursor: default;
   opacity: 1;
 }
 
 #profile:checked ~ .slider {
-  -webkit-transform: translateX(-100vw);
-          transform: translateX(-100vw);
+  transform: translateX(-100vw);
 }
-
 #profile:checked ~ nav label {
   display: none;
 }
-
 #profile:checked ~ nav label.profile {
   display: initial;
 }
-
 #profile:checked ~ nav .buttons {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
-
 #profile:checked ~ nav .buttons .labelSplash {
   display: inline-block;
 }
-
-#profile:checked ~ nav .buttons label[for="profile"] {
+#profile:checked ~ nav .buttons label[for=profile] {
   cursor: default;
   opacity: 1;
 }
 
 #people-select:checked ~ .slider {
-  -webkit-transform: translateX(-200vw);
-          transform: translateX(-200vw);
+  transform: translateX(-200vw);
 }
-
 #people-select:checked ~ nav label {
   display: none;
 }
-
 #people-select:checked ~ nav label.people-select {
   display: initial;
 }
-
 #people-select:checked ~ nav .buttons {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
-
 #people-select:checked ~ nav .buttons .labelSplash {
   display: inline-block;
 }
-
-#people-select:checked ~ nav .buttons label[for="people-select"] {
+#people-select:checked ~ nav .buttons label[for=people-select] {
   cursor: default;
   opacity: 1;
 }
 
 #leaves:checked ~ .slider {
-  -webkit-transform: translateX(-300vw);
-          transform: translateX(-300vw);
+  transform: translateX(-300vw);
 }
-
 #leaves:checked ~ nav label {
   display: none;
 }
-
 #leaves:checked ~ nav label.leaves {
   display: initial;
 }
-
 #leaves:checked ~ nav .buttons {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
-
 #leaves:checked ~ nav .buttons .labelSplash {
   display: inline-block;
 }
-
-#leaves:checked ~ nav .buttons label[for="leaves"] {
+#leaves:checked ~ nav .buttons label[for=leaves] {
   cursor: default;
   opacity: 1;
 }
 
-input[type="radio"] {
+input[type=radio] {
   position: fixed;
   top: -100vh;
 }
@@ -2850,7 +2435,6 @@ input[type="radio"] {
   cursor: pointer;
   opacity: 0.5;
 }
-
 .labelSplash:hover {
   opacity: 0.75;
 }
@@ -2863,7 +2447,6 @@ input[type="radio"] {
   height: 100vh;
   text-align: center;
 }
-
 .navSlide .done {
   font-size: 2em;
   font-weight: bold;
@@ -2872,7 +2455,6 @@ input[type="radio"] {
   right: 1em;
   bottom: 1em;
 }
-
 .navSlide .buttons {
   display: block;
   margin: 0 auto;
@@ -2882,23 +2464,19 @@ input[type="radio"] {
   color: #06c9ef;
   top: 1.8em;
 }
-
 .navSlide .buttons .labelSplash {
   font-size: 2em;
   width: 9mm;
 }
-
 .navSlide .prev, .navSlide .next {
   position: absolute;
   width: 50vw;
   top: 0;
   height: 100vh;
 }
-
 .navSlide .prev {
   left: 0;
 }
-
 .navSlide .next {
   right: 0;
 }
@@ -2906,12 +2484,8 @@ input[type="radio"] {
 .slider {
   width: 400vw;
   position: fixed;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
+  transform: translate3d(0, 0, 0);
   transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   color: white;
 }
 
@@ -2921,14 +2495,12 @@ input[type="radio"] {
   height: 100vh;
   width: 100vw;
 }
-
 .slide img {
   display: block;
   max-height: 70%;
   max-width: 100%;
   margin: auto;
 }
-
 .slide h2 {
   display: inline-block;
   font-size: 5vh;
@@ -2945,7 +2517,6 @@ input[type="radio"] {
   background-position: bottom left;
   background-size: 46vh;
 }
-
 #my-tree-slide p {
   color: #009fee;
   margin: 0 0 20px;
@@ -2962,7 +2533,6 @@ input[type="radio"] {
 #leaves-slide {
   background-color: #baeaf2;
 }
-
 #leaves-slide h2 {
   margin-top: 1em;
   line-height: 100vh;
@@ -2986,39 +2556,39 @@ input[type="radio"] {
   position: relative;
   margin: auto;
   height: 408px;
+  /* Hide the images by default */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+  /* Caption text */
+  /* Number text (1/3 etc) */
+  /* The dots/bullets/indicators */
+  /* Fading animation */
 }
-
 @media (min-width: 481px) and (max-width: 720px) {
   .slideshow-container {
     height: 530px;
   }
 }
-
 @media (min-width: 721px) and (max-width: 1022px) {
   .slideshow-container {
     height: 530px;
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1280px) {
   .slideshow-container {
     height: 530px;
   }
 }
-
 @media (min-width: 1280px) and (max-width: 1920px) {
   .slideshow-container {
     height: 530px;
   }
 }
-
-/* Hide the images by default */
-.mySlides {
+.slideshow-container .mySlides {
   display: none;
 }
-
-/* Next & previous buttons */
-.prev, .next {
+.slideshow-container .prev, .slideshow-container .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -3028,7 +2598,6 @@ input[type="radio"] {
   color: white;
   font-weight: bold;
   font-size: 18px;
-  -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -webkit-user-select: none;
@@ -3036,20 +2605,14 @@ input[type="radio"] {
       -ms-user-select: none;
           user-select: none;
 }
-
-/* Position the "next button" to the right */
-.next {
+.slideshow-container .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.slideshow-container .prev:hover, .slideshow-container .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
-/* Caption text */
-.text {
+.slideshow-container .text {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
@@ -3058,18 +2621,14 @@ input[type="radio"] {
   width: 100%;
   text-align: center;
 }
-
-/* Number text (1/3 etc) */
-.numbertext {
+.slideshow-container .numbertext {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
 }
-
-/* The dots/bullets/indicators */
-.dot {
+.slideshow-container .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -3077,63 +2636,52 @@ input[type="radio"] {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  -webkit-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
 }
-
-.active, .dot:hover {
+.slideshow-container .active, .slideshow-container .dot:hover {
   background-color: #717171;
 }
-
-/* Fading animation */
-.fade {
+.slideshow-container .fade {
   -webkit-animation-name: fade;
           animation-name: fade;
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
 }
-
-.fade img {
+.slideshow-container .fade img {
   width: 200px;
   margin: 0 auto;
 }
-
 @media (min-width: 481px) and (max-width: 720px) {
-  .fade img {
+  .slideshow-container .fade img {
     width: 300px;
   }
 }
-
 @media (min-width: 721px) and (max-width: 1022px) {
-  .fade img {
+  .slideshow-container .fade img {
     width: 320px;
   }
 }
-
 @media (min-width: 1024px) and (max-width: 1280px) {
-  .fade img {
+  .slideshow-container .fade img {
     width: 340px;
   }
 }
-
 @media (min-width: 1280px) and (max-width: 1920px) {
-  .fade img {
+  .slideshow-container .fade img {
     width: 340px;
   }
 }
-
 @-webkit-keyframes fade {
   from {
-    opacity: .4;
+    opacity: 0.4;
   }
   to {
     opacity: 1;
   }
 }
-
 @keyframes fade {
   from {
-    opacity: .4;
+    opacity: 0.4;
   }
   to {
     opacity: 1;
@@ -3217,9 +2765,8 @@ input[type="radio"] {
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -3227,81 +2774,61 @@ input[type="radio"] {
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -3313,13 +2840,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -3328,7 +2854,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -3338,7 +2864,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -3353,114 +2879,68 @@ hr {
   height: -moz-max-content;
   height: max-content;
 }
-
 .calendar-week-day {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[7];
-      grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, 1fr);
 }
-
 .calendar-week-day div {
-  display: -ms-grid;
   display: grid;
   place-items: center;
   color: #f2890b;
   font-size: 13px;
   padding-bottom: 8px;
 }
-
 .calendar-days {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[7];
-      grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   font-size: 14px;
 }
-
 .calendar-days div {
   height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  align-items: center;
+  justify-content: end;
   margin-bottom: 3px;
   place-self: center;
   font-size: 13px;
 }
-
 @media (min-width: 481px) and (max-width: 720px) {
   .calendar-days div {
     padding: 1px;
   }
 }
-
 .calendar-days .day {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .month-picker {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 12px;
 }
-
 .month-picker span {
   font-weight: 600;
 }
-
 .month-picker div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .month-picker div .month-change {
   margin: 0 2px;
 }
 
 .date {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .date .day {
   font-weight: 600;
   font-size: 18px;
 }
-
 .date-picker {
   font-size: 14px;
 }
@@ -3479,13 +2959,9 @@ hr {
 .agendaDay {
   background: #cbcbcc;
   color: white;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
   display: flex !important;
   border-radius: 31px;
-  -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  justify-content: center !important;
   width: 25px !important;
   height: 25px !important;
   border-radius: 50%;
@@ -3495,8 +2971,6 @@ hr {
 }
 
 .events {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 10px;
 }
@@ -3541,7 +3015,6 @@ hr {
   width: 1em;
   height: 1em;
 }
-
 .spinner.center {
   position: absolute;
   left: 0;
@@ -3552,100 +3025,75 @@ hr {
 
 .spinner-blade {
   position: absolute;
-  left: .4629em;
+  left: 0.4629em;
   bottom: 0;
-  width: .074em;
-  height: .199em;
-  border-radius: .5em;
+  width: 0.074em;
+  height: 0.199em;
+  border-radius: 0.5em;
   background-color: transparent;
-  -webkit-transform-origin: center -.2222em;
-          transform-origin: center -.2222em;
+  transform-origin: center -0.2222em;
   -webkit-animation: spinner-fade 1s infinite linear;
           animation: spinner-fade 1s infinite linear;
 }
-
 .spinner-blade:nth-child(1) {
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
+  transform: rotate(0deg);
 }
-
 .spinner-blade:nth-child(2) {
   -webkit-animation-delay: 0.083s;
           animation-delay: 0.083s;
-  -webkit-transform: rotate(30deg);
-          transform: rotate(30deg);
+  transform: rotate(30deg);
 }
-
 .spinner-blade:nth-child(3) {
   -webkit-animation-delay: 0.166s;
           animation-delay: 0.166s;
-  -webkit-transform: rotate(60deg);
-          transform: rotate(60deg);
+  transform: rotate(60deg);
 }
-
 .spinner-blade:nth-child(4) {
   -webkit-animation-delay: 0.249s;
           animation-delay: 0.249s;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
 }
-
 .spinner-blade:nth-child(5) {
   -webkit-animation-delay: 0.332s;
           animation-delay: 0.332s;
-  -webkit-transform: rotate(120deg);
-          transform: rotate(120deg);
+  transform: rotate(120deg);
 }
-
 .spinner-blade:nth-child(6) {
   -webkit-animation-delay: 0.415s;
           animation-delay: 0.415s;
-  -webkit-transform: rotate(150deg);
-          transform: rotate(150deg);
+  transform: rotate(150deg);
 }
-
 .spinner-blade:nth-child(7) {
   -webkit-animation-delay: 0.498s;
           animation-delay: 0.498s;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
-
 .spinner-blade:nth-child(8) {
   -webkit-animation-delay: 0.581s;
           animation-delay: 0.581s;
-  -webkit-transform: rotate(210deg);
-          transform: rotate(210deg);
+  transform: rotate(210deg);
 }
-
 .spinner-blade:nth-child(9) {
   -webkit-animation-delay: 0.664s;
           animation-delay: 0.664s;
-  -webkit-transform: rotate(240deg);
-          transform: rotate(240deg);
+  transform: rotate(240deg);
 }
-
 .spinner-blade:nth-child(10) {
   -webkit-animation-delay: 0.747s;
           animation-delay: 0.747s;
-  -webkit-transform: rotate(270deg);
-          transform: rotate(270deg);
+  transform: rotate(270deg);
 }
-
 .spinner-blade:nth-child(11) {
   -webkit-animation-delay: 0.83s;
           animation-delay: 0.83s;
-  -webkit-transform: rotate(300deg);
-          transform: rotate(300deg);
+  transform: rotate(300deg);
 }
-
 .spinner-blade:nth-child(12) {
   -webkit-animation-delay: 0.913s;
           animation-delay: 0.913s;
-  -webkit-transform: rotate(330deg);
-          transform: rotate(330deg);
+  transform: rotate(330deg);
 }
 
 @-webkit-keyframes spinner-fade {
@@ -3665,7 +3113,6 @@ hr {
     background-color: transparent;
   }
 }
-
 .text-white {
   color: #fff;
 }
@@ -3743,9 +3190,8 @@ hr {
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -3753,81 +3199,61 @@ hr {
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -3839,13 +3265,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -3854,7 +3279,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -3864,7 +3289,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -3877,12 +3302,11 @@ hr {
 .formLogin {
   margin-top: 40px;
 }
-
-.formLogin input[type="number"], .formLogin input[type="password"] {
+.formLogin input[type=number], .formLogin input[type=password] {
   -webkit-appearance: none;
   -moz-appearance: none;
   border: none;
-  padding: .7rem;
+  padding: 0.7rem;
   color: black;
   font-size: 1rem;
   border-radius: 10px;
@@ -3890,19 +3314,16 @@ hr {
   width: 100%;
   margin: 6px 0;
 }
-
 .formLogin select {
   background: none;
   border: none;
   font-size: 18px;
   color: #8f6b04;
 }
-
 .formLogin label {
   color: #c5aa1d;
 }
-
-.formLogin input[type="submit"] {
+.formLogin input[type=submit] {
   margin: 3vh auto 0;
   display: block;
   font-size: 20px;
@@ -3913,32 +3334,24 @@ hr {
   padding: 8px 0 10px;
 }
 
-.petForm input[type="text"], .petForm input[type="number"],
-.petForm input[type="email"], .petForm input[type="tel"],
-.petForm input[type="date"] {
+.petForm input[type=text], .petForm input[type=number],
+.petForm input[type=email], .petForm input[type=tel],
+.petForm input[type=date] {
   border: 1px solid #e5e5e5;
   border-radius: 6px;
   height: 26px;
   color: #b8b8b8;
 }
-
 .petForm .division {
   margin: 5px 0;
 }
-
 .petForm .form-content {
   margin-top: 14px;
 }
-
 .petForm .form-genero {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .petForm .genero {
   margin-right: 14px;
 }
@@ -3946,35 +3359,27 @@ hr {
 .wInput-A {
   width: 69vw;
 }
-
 .wInput-B {
   width: 75vw;
 }
-
 .wInput-C {
   width: 41vw;
 }
-
 .wInput-D {
   width: 75vw;
 }
-
 .wInput-E {
   width: 65vw;
 }
-
 .wInput-F {
   width: 69vw;
 }
-
 .wInput-G {
   width: 62vw;
 }
-
 .wInput-H {
   width: 74vw;
 }
-
 .wInput-I {
   width: 71vw;
 }
@@ -3983,7 +3388,6 @@ hr {
   position: relative;
   margin-bottom: 20px;
 }
-
 .group input, .group select {
   font-size: 18px;
   padding: 10px;
@@ -3993,7 +3397,6 @@ hr {
   border-radius: 6px;
   border: 2px solid;
 }
-
 .group label {
   color: #d3d3d3;
   font-size: 18px;
@@ -4005,7 +3408,6 @@ hr {
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
 }
-
 .group input:focus ~ label, .group input:valid ~ label {
   top: -8px;
   font-size: 12px;
@@ -4013,7 +3415,6 @@ hr {
   padding: 0 10px;
   background: #fff;
 }
-
 .group textarea:focus, .group input:focus, .group input[type]:focus, .group select:focus {
   border: solid 2px #06c9ef;
   outline: 0 none;
@@ -4043,17 +3444,15 @@ hr {
   display: inline-block;
   position: absolute;
   top: 50%;
-  left: .4em;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  left: 0.4em;
+  transform: translateY(-50%);
   width: 2.875em;
   height: 1.625em;
-  margin-right: .8em;
+  margin-right: 0.8em;
   background: #E6E6E6;
   border-radius: 1.4375em;
   vertical-align: middle;
-  -webkit-transition: .3s linear;
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
 
 .switch i::after {
@@ -4062,14 +3461,11 @@ hr {
   width: 1.375em;
   height: 1.375em;
   left: 0;
-  -webkit-transform: translate(0.125em, 0.125em);
-          transform: translate(0.125em, 0.125em);
-  border-radius: .6875em;
+  transform: translate(0.125em, 0.125em);
+  border-radius: 0.6875em;
   background: #FFFFFF;
-  -webkit-box-shadow: 0.125em 0.0625em 0.0625em rgba(0, 0, 0, 0.1);
-          box-shadow: 0.125em 0.0625em 0.0625em rgba(0, 0, 0, 0.1);
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  box-shadow: 0.125em 0.0625em 0.0625em rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in-out;
 }
 
 .switch input:checked + i {
@@ -4077,8 +3473,7 @@ hr {
 }
 
 .switch input:checked + i::after {
-  -webkit-transform: translate(1.375em, 0.125em);
-          transform: translate(1.375em, 0.125em);
+  transform: translate(1.375em, 0.125em);
 }
 
 .switch span {
@@ -4088,68 +3483,46 @@ hr {
 }
 
 .footerMenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   height: 70px;
   width: 100%;
   background: #f1f1f1;
   position: fixed;
   bottom: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .fMenuIcon {
   width: 70px;
   height: 48px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 12px;
   color: #101c1d;
 }
-
 .fMenuIcon:hover {
   background: #101c1d;
   color: white;
 }
-
 .fMenuIcon i {
   font-size: 30px;
 }
 
 .footerClicker {
   background: #06c9ef;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   height: 90px;
   width: 100%;
   position: fixed;
   bottom: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 30px 30px 0  0;
-  -webkit-box-shadow: -5px 9px 49px 4px rgba(62, 44, 120, 0.5);
-          box-shadow: -5px 9px 49px 4px rgba(62, 44, 120, 0.5);
+  align-items: center;
+  border-radius: 30px 30px 0 0;
+  box-shadow: -5px 9px 49px 4px rgba(62, 44, 120, 0.5);
 }
-
 .footerClicker .clicker-btn {
   height: 120px;
   width: 120px;
@@ -4157,14 +3530,11 @@ hr {
   border: solid 6px white;
   background-color: #44cbe5;
   margin: -80px auto 0;
-  -webkit-box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, 0.5);
-          box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, 0.5);
+  box-shadow: 0px 6px 8px -1px rgba(62, 44, 120, 0.5);
 }
-
 .footerClicker .clicker-btn:hover {
   background: #06c9ef;
 }
-
 .footerClicker .clicker-btn img {
   width: 40px;
   margin: 0 auto;
@@ -4247,9 +3617,8 @@ hr {
 }
 
 .bg-gray {
-  background: #f0f2f3;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, #f0f2f3), to(white));
-  background: linear-gradient(180deg, #f0f2f3 80%, white 100%);
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
 }
 
 .orange-bg {
@@ -4257,81 +3626,61 @@ hr {
 }
 
 .orange-gradient {
-  background: #f5a13a;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f5a13a), to(#f2890d));
-  background: linear-gradient(180deg, #f5a13a 0%, #f2890d 100%);
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
 }
-
 .orange-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f49a30), to(#f8c17c));
-  background: linear-gradient(180deg, #f49a30 50%, #f8c17c 100%);
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
 }
 
 .orange-light-gradient {
-  background: #f4a45e;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4a45e), to(#f1913b));
-  background: linear-gradient(180deg, #f4a45e 0%, #f1913b 100%);
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
 }
-
 .orange-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#f4af76), to(#f7d2b0));
-  background: linear-gradient(180deg, #f4af76 0%, #f7d2b0 100%);
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
 }
 
 .blue-light-gradient {
-  background: #c7eef5;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c7eef5), to(#baeaf1));
-  background: linear-gradient(180deg, #c7eef5 0%, #baeaf1 100%);
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
 }
-
 .blue-light-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#def6f9), to(#cdf4f7));
-  background: linear-gradient(180deg, #def6f9 0%, #cdf4f7 100%);
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
 }
 
 .blue-green-gradient {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
 
 .blue-green-gradientB {
-  background: #36d3f1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#36d3f1), to(#0acaef));
-  background: linear-gradient(180deg, #36d3f1 0%, #0acaef 100%);
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
 }
-
 .blue-green-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#6ee8f9), to(#2fddf4));
-  background: linear-gradient(180deg, #6ee8f9 0%, #2fddf4 100%);
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
 }
 
 .yellow-dark-gradient {
-  background: #f7bf39;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f7bf39), to(#f6b10c));
-  background: linear-gradient(180deg, #f7bf39 0%, #f6b10c 100%);
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
 }
-
 .yellow-dark-gradient:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #ffd07d), to(#ffc248));
-  background: linear-gradient(180deg, #ffd07d 50%, #ffc248 100%);
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
 }
 
 .yellow-light-gradient {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
 
 .yellow-light-gradientB {
-  background: #f8de53;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f8de53), to(#f7d52d));
-  background: linear-gradient(180deg, #f8de53 0%, #f7d52d 100%);
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
 }
-
 .yellow-light-gradientB:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fce586), to(#f9dd64));
-  background: linear-gradient(180deg, #fce586 0%, #f9dd64 100%);
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
 }
 
 hr {
@@ -4343,13 +3692,12 @@ hr {
 }
 
 @font-face {
-  font-family: 'fontello';
+  font-family: "fontello";
   src: url("../fonts/font/fontello.eot");
   src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
-
 .demo-icon {
   font-family: "fontello";
   font-style: normal;
@@ -4358,7 +3706,7 @@ hr {
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
-  margin-right: .2em;
+  margin-right: 0.2em;
   text-align: center;
   /* opacity: .8; */
   /* For safety - reset parent styles, that can break glyph codes*/
@@ -4368,7 +3716,7 @@ hr {
   line-height: 1em;
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
-  margin-left: .2em;
+  margin-left: 0.2em;
   /* You can be more comfortable with increased icons size */
   /* font-size: 120%; */
   /* Font smoothing. That was taken from TWBS */
@@ -4382,103 +3730,70 @@ hr {
   border-radius: 1.2rem;
   height: 140px;
 }
-
 .card-paddingA {
   padding: 20px 35px 16px;
 }
-
 .card-paddingB {
   padding: 10px 40px;
 }
-
 .card a {
   font-weight: 600;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .card .p-padding {
   padding-bottom: 10px;
 }
 
 .card2 {
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   height: 100px;
   position: relative;
   overflow: hidden;
 }
-
 .card2-border {
   border: 1px solid #7d7d7d;
 }
-
 .card2-paddingB {
   padding: 6px 14px;
 }
-
 .card2-line {
   height: 9px;
   background: #f2890b;
 }
-
 .card2-lineBlue {
   height: 9px;
   background: #06c9ef;
 }
-
 .card2-lineYellow {
   height: 9px;
   background: #ffc332;
 }
-
 .card2-title {
   font-size: 19px;
 }
-
 .card2-datos {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 15px;
 }
-
 .card2-datos-margin {
   margin-right: 19px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
-
 .card2 a {
   font-weight: 600;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .card2 span {
   font-size: 13px;
 }
-
 .card2 .p-padding {
   padding-bottom: 10px;
 }
-
 .card2 .p-size {
   font-size: 14px;
 }
@@ -4486,14 +3801,12 @@ hr {
 .card3 {
   border-radius: 8px;
 }
-
 .card3 h3 {
   color: #fff;
   text-transform: uppercase;
   font-size: 18px;
   margin-bottom: 8px;
 }
-
 .card3 div {
   background: #fff;
   border-radius: 10px;
@@ -4501,18 +3814,15 @@ hr {
   width: 260px;
   margin-bottom: 10px;
 }
-
 .card3 div p {
   font-size: 14px;
   padding: 4px 0;
   color: black;
 }
-
 .card3 div span {
   color: #7d7d7d;
 }
 
 .marginCard {
   margin: 10px 0;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

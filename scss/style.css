@@ -1,187 +1,5 @@
-.text-white {
-  color: #fff;
-}
-
-.text-gray {
-  color: #72808e;
-}
-
-.blue-textA {
-  color: #056ea1;
-}
-
-.blue-textB {
-  color: #009fee;
-}
-
-.orange-textC {
-  color: #f18e37;
-}
-
-.orange-textD {
-  color: #f2890b;
-}
-
-.blue-textE {
-  color: #059fbd;
-}
-
-.orange-textF {
-  color: #c9762e;
-}
-
-.yellow-textF {
-  color: #c09226;
-}
-
-.blue-textG {
-  color: #06c9ef;
-}
-
-.yellow-textH {
-  color: #ffc332;
-}
-
-.yellow-textI {
-  color: #f7d62b;
-}
-
-.orange-textJ {
-  color: #fbc192;
-}
-
-.lightBlue-textB {
-  color: #baeaf2;
-}
-
-.lightBlue-textC {
-  color: #baeaf2;
-}
-
-.yelllow-bg {
-  background-color: #f7d62b;
-}
-
-.light-blue-bg {
-  background-color: #baeaf2;
-}
-
-.light-orange-bg {
-  background-color: #f6d3a9;
-}
-
-.light-yellow-bg {
-  background-color: #faf6cb;
-}
-
-.bg-gray {
-  background: rgb(240, 242, 243);
-  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
-}
-
-.orange-bg {
-  background-color: #f18e37;
-}
-
-.orange-gradient {
-  background: rgb(245, 161, 58);
-  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
-}
-.orange-gradient:hover {
-  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
-}
-
-.orange-light-gradient {
-  background: rgb(244, 164, 94);
-  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
-}
-.orange-light-gradient:hover {
-  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
-}
-
-.blue-light-gradient {
-  background: rgb(199, 238, 245);
-  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
-}
-.blue-light-gradient:hover {
-  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
-}
-
-.blue-green-gradient {
-  background: rgb(54, 211, 241);
-  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
-}
-
-.blue-green-gradientB {
-  background: rgb(54, 211, 241);
-  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
-}
-.blue-green-gradientB:hover {
-  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
-}
-
-.yellow-dark-gradient {
-  background: rgb(247, 191, 57);
-  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
-}
-.yellow-dark-gradient:hover {
-  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
-}
-
-.yellow-light-gradient {
-  background: rgb(248, 222, 83);
-  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
-}
-
-.yellow-light-gradientB {
-  background: rgb(248, 222, 83);
-  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
-}
-.yellow-light-gradientB:hover {
-  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
-}
-
-hr {
-  background: #e5e5e5;
-  height: 5px;
-  width: 70px;
-  border: none;
-  border-radius: 10px;
-}
-
-@font-face {
-  font-family: "fontello";
-  src: url("../fonts/font/fontello.eot");
-  src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-.demo-icon {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
-  speak: never;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: 0.2em;
-  text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: 0.2em;
-  /* You can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-  /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+.text {
+  color: #3c3c3c;
 }
 
 .text-white {
@@ -368,6 +186,200 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.text {
+  color: #3c3c3c;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray {
+  color: #72808e;
+}
+
+.blue-textA {
+  color: #056ea1;
+}
+
+.blue-textB {
+  color: #009fee;
+}
+
+.orange-textC {
+  color: #f18e37;
+}
+
+.orange-textD {
+  color: #f2890b;
+}
+
+.blue-textE {
+  color: #059fbd;
+}
+
+.orange-textF {
+  color: #c9762e;
+}
+
+.yellow-textF {
+  color: #c09226;
+}
+
+.blue-textG {
+  color: #06c9ef;
+}
+
+.yellow-textH {
+  color: #ffc332;
+}
+
+.yellow-textI {
+  color: #f7d62b;
+}
+
+.orange-textJ {
+  color: #fbc192;
+}
+
+.lightBlue-textB {
+  color: #baeaf2;
+}
+
+.lightBlue-textC {
+  color: #baeaf2;
+}
+
+.yelllow-bg {
+  background-color: #f7d62b;
+}
+
+.light-blue-bg {
+  background-color: #baeaf2;
+}
+
+.light-orange-bg {
+  background-color: #f6d3a9;
+}
+
+.light-yellow-bg {
+  background-color: #faf6cb;
+}
+
+.bg-gray {
+  background: rgb(240, 242, 243);
+  background: linear-gradient(180deg, rgb(240, 242, 243) 80%, rgb(255, 255, 255) 100%);
+}
+
+.orange-bg {
+  background-color: #f18e37;
+}
+
+.orange-gradient {
+  background: rgb(245, 161, 58);
+  background: linear-gradient(180deg, rgb(245, 161, 58) 0%, rgb(242, 137, 13) 100%);
+}
+.orange-gradient:hover {
+  background: linear-gradient(180deg, rgb(244, 154, 48) 50%, rgb(248, 193, 124) 100%);
+}
+
+.orange-light-gradient {
+  background: rgb(244, 164, 94);
+  background: linear-gradient(180deg, rgb(244, 164, 94) 0%, rgb(241, 145, 59) 100%);
+}
+.orange-light-gradient:hover {
+  background: linear-gradient(180deg, rgb(244, 175, 118) 0%, rgb(247, 210, 176) 100%);
+}
+
+.blue-light-gradient {
+  background: rgb(199, 238, 245);
+  background: linear-gradient(180deg, rgb(199, 238, 245) 0%, rgb(186, 234, 241) 100%);
+}
+.blue-light-gradient:hover {
+  background: linear-gradient(180deg, rgb(222, 246, 249) 0%, rgb(205, 244, 247) 100%);
+}
+
+.blue-green-gradient {
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
+}
+
+.blue-green-gradientB {
+  background: rgb(54, 211, 241);
+  background: linear-gradient(180deg, rgb(54, 211, 241) 0%, rgb(10, 202, 239) 100%);
+}
+.blue-green-gradientB:hover {
+  background: linear-gradient(180deg, rgb(110, 232, 249) 0%, rgb(47, 221, 244) 100%);
+}
+
+.yellow-dark-gradient {
+  background: rgb(247, 191, 57);
+  background: linear-gradient(180deg, rgb(247, 191, 57) 0%, rgb(246, 177, 12) 100%);
+}
+.yellow-dark-gradient:hover {
+  background: linear-gradient(180deg, rgb(255, 208, 125) 50%, rgb(255, 194, 72) 100%);
+}
+
+.yellow-light-gradient {
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
+}
+
+.yellow-light-gradientB {
+  background: rgb(248, 222, 83);
+  background: linear-gradient(180deg, rgb(248, 222, 83) 0%, rgb(247, 213, 45) 100%);
+}
+.yellow-light-gradientB:hover {
+  background: linear-gradient(180deg, rgb(252, 229, 134) 0%, rgb(249, 221, 100) 100%);
+}
+
+hr {
+  background: #e5e5e5;
+  height: 5px;
+  width: 70px;
+  border: none;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "fontello";
+  src: url("../fonts/font/fontello.eot");
+  src: url("../fonts/font/fontello.eot#iefix") format("embedded-opentype"), url("../fonts/font/fontello.woff") format("woff"), url("../fonts/font/fontello.ttf") format("truetype"), url("../fonts/font/fontello.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.demo-icon {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em;
+  /* You can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.text {
+  color: #3c3c3c;
 }
 
 .text-white {
@@ -1078,6 +1090,18 @@ h1, h2, h3, h4, h5, h6 {
   background-position: top;
   background-position-y: -42px;
 }
+.pet-bg {
+  background: url(../img/lovePet.jpg) no-repeat;
+  height: 100vh;
+  background-position: top;
+  background-position-y: -42px;
+}
+.pet-bg2 {
+  background: url(../img/lovePet.jpg) no-repeat;
+  height: 100vh;
+  background-position: top;
+  background-position-y: -42px;
+}
 .pet-title {
   font-size: 16px;
   font-weight: 600;
@@ -1101,6 +1125,32 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 1.6rem 1.6rem 0 0;
 }
 .pet-desctription hr {
+  margin-top: 10px;
+  height: 6px;
+}
+.pet-desctription2 {
+  background: #fff;
+  height: 67vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+.pet-desctription2 hr {
+  margin-top: 10px;
+  height: 6px;
+}
+.pet-desctription3 {
+  background: #fff;
+  height: 55vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+.pet-desctription3 hr {
   margin-top: 10px;
   height: 6px;
 }
@@ -1322,6 +1372,170 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 18px;
 }
 
+.pet-desctription2 h2,
+.pet-desctription3 h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.pet-desctription2 h3,
+.pet-desctription3 h3 {
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+.pet-desctription2 p,
+.pet-desctription3 p {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.pet-desctription2 h3 {
+  margin: 16px 0 6px;
+}
+
+.descuento {
+  padding: 6px 0 20px;
+}
+.descuento .code {
+  font-weight: 300;
+  font-size: 20px;
+}
+.descuento h4 {
+  font-size: 14px;
+}
+
+.circle-opt {
+  background-color: #c3c3c3;
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.infoClinca {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.infoClinca .circle-opt {
+  margin-left: 0;
+}
+.infoClinca .inf {
+  padding-bottom: 18px;
+}
+.infoClinca .inf h3 {
+  font-size: 17px;
+  margin: 0;
+  margin-bottom: -2px;
+}
+.infoClinca .inf a {
+  text-decoration: none;
+  color: #7d7d7d;
+  margin-top: -2px;
+}
+
+.Fdescuento {
+  height: 43vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.text-descueto {
+  background: #2ca5a5;
+  color: white;
+  padding: 2px 10px;
+  font-size: 18px;
+}
+
+.bg-terminos {
+  background: url(../img/bgTerminos.jpg) no-repeat;
+  height: 100vh;
+  background-position: top;
+  background-position-y: -42px;
+}
+
+.bg-desccuento {
+  background: url(../img/bgdescuento.jpg) no-repeat;
+  height: 100vh;
+  background-position: top;
+  background-position-y: -42px;
+}
+
+.divSuper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-pro {
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.img-promo {
+  width: 36px;
+  transform: rotate(159deg);
+}
+
+.paddingSection-promo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 10px;
+}
+.paddingSection-promo img {
+  margin: 5px;
+}
+.paddingSection-promo h3 {
+  color: #06c9ef;
+}
+
+.card5-borde-v {
+  width: 13px;
+  height: 90px;
+  background-color: #f2890b;
+}
+
+.search-container {
+  width: 100%;
+  position: relative;
+  padding-top: 30px;
+}
+.search-container form {
+  background: #ededed;
+  border-radius: 20px;
+  height: 40px;
+}
+.search-container input[type=text] {
+  width: 80%;
+  height: 40px;
+  background: #ededed;
+  border: none;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+.search-container button {
+  width: 70px;
+  height: 50px;
+  background-color: #06c9ef;
+  border: none;
+  border-radius: 24px;
+  position: absolute;
+  top: 25px;
+  margin-left: 3px;
+  right: 0;
+}
+
+.space-search {
+  margin-bottom: 26px;
+}
+
+.text {
+  color: #3c3c3c;
+}
+
 .text-white {
   color: #fff;
 }
@@ -1506,6 +1720,10 @@ hr {
   -moz-osx-font-smoothing: grayscale;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.text {
+  color: #3c3c3c;
 }
 
 .text-white {
@@ -1838,6 +2056,10 @@ hr {
   text-decoration: none;
 }
 
+.text {
+  color: #3c3c3c;
+}
+
 .text-white {
   color: #fff;
 }
@@ -2142,6 +2364,10 @@ hr {
 }
 .item:hover {
   background: #eeeeee;
+}
+
+.text {
+  color: #3c3c3c;
 }
 
 .text-white {
@@ -2688,6 +2914,10 @@ input[type=radio] {
   }
 }
 
+.text {
+  color: #3c3c3c;
+}
+
 .text-white {
   color: #fff;
 }
@@ -3113,6 +3343,10 @@ hr {
     background-color: transparent;
   }
 }
+.text {
+  color: #3c3c3c;
+}
+
 .text-white {
   color: #fff;
 }
@@ -3540,6 +3774,10 @@ hr {
   margin: 0 auto;
 }
 
+.text {
+  color: #3c3c3c;
+}
+
 .text-white {
   color: #fff;
 }
@@ -3823,6 +4061,103 @@ hr {
   color: #7d7d7d;
 }
 
+.card4 {
+  width: 48%;
+  overflow: hidden;
+  border-radius: 0.8rem;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5%;
+}
+.card4-title {
+  font-size: 16px;
+  text-align: center;
+  line-height: -0.5;
+}
+.card4-datos {
+  display: flex;
+  margin-top: 15px;
+}
+.card4-datos-margin {
+  margin-right: 19px;
+  display: flex;
+  align-content: center;
+}
+.card4 a {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card4 span {
+  font-size: 13px;
+}
+.card4 .p-padding {
+  padding-bottom: 10px;
+}
+.card4 .p-size {
+  font-size: 14px;
+}
+
 .marginCard {
   margin: 10px 0;
+}
+
+.card5 {
+  border-radius: 0.8rem;
+  height: 76px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  background: #fbe5d6;
+  margin: 8px 0;
+}
+.card5-border {
+  border: 1px solid #7d7d7d;
+}
+.card5-paddingB {
+  padding: 6px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card5-line {
+  height: 9px;
+  background: #f2890b;
+}
+.card5-title {
+  font-size: 19px;
+  color: #f2890b;
+}
+.card5-datos {
+  display: flex;
+  margin-top: 15px;
+}
+.card5-datos-margin {
+  margin-right: 19px;
+  display: flex;
+  align-content: center;
+}
+.card5 p {
+  color: #f2890b;
+}
+.card5 a {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card5 span {
+  font-size: 13px;
+}
+.card5 .p-padding {
+  padding-bottom: 10px;
+}
+.card5 .p-size {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

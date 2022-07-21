@@ -14,6 +14,10 @@ $text: #3c3c3c;
 $blue-dark-text:#056ea1; 
 $blue-light-text:#009fee; 
 
+.text{
+    color:$text;
+}
+
 .text-white{
     color: $white;
 }

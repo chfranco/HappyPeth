@@ -23,10 +23,46 @@
     <p class="atc text-gray">selecciona tu mascota</p>
   </div>
   <div class="pet-descrip paddingSection-app bg-gray">
-    <div class="postion-avatar">
-      <img class="circle pc avatar-border" src="./img/max.jpg" alt="">
-      <p class="atc">Max</p>
+
+    <div class="postion-avatar avatar-fl">
+      <form action="">
+
+        <div class="selectbox">
+
+          <div class="select" id="select">
+            <div class="contenido-select">
+              <img class="circle pc avatar-border" src="./img/max.jpg" alt="">
+              <p class="atc">Max</p>
+            </div>
+          </div>
+
+          <div class="selOpciones" id="opciones">
+            <a href="#" class="opcion">
+              <div class="contenido-opcion">
+                <img class="circle pc avatar-border" src="./img/lovePet.jpg" alt="">
+                <p class="atc">Django</p>
+              </div>
+            </a>
+            <a href="#" class="opcion">
+              <div class="contenido-opcion">
+                <img class="circle pc avatar-border" src="./img/avatar.jpg" alt="">
+                <p class="atc">Rocky</p>
+              </div>
+            </a>
+            <a href="#" class="opcion">
+              <div class="contenido-opcion">
+                <img class="circle pc avatar-border" src="./img/max.jpg" alt="">
+                <p class="atc">Max</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <input type="hidden" name="pet" id="inputSelect" value="">
+        
+      </form>
     </div>
+
 
     <div>
       <div class="SectForm">
@@ -86,7 +122,7 @@
       </a>
     </div>
   </div>
-  <script src="./js/functions.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./js/fn2.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 </html>

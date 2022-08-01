@@ -959,3 +959,46 @@ height: 92vh;
 .space-search{
   margin-bottom: 26px;
 }
+
+.avatar-fl{
+  display: flex;
+  justify-content: center;
+}
+
+.selectbox{
+  width: 82px;
+}
+
+.selOpciones{
+  padding: 14px 0;
+  border-radius: 10px;
+  max-height: 200px;
+  overflow: auto;
+  z-index: 100;
+  width: 82px;
+  display: none;
+}
+
+.selOpciones.active{
+  display: block;
+}
+
+.contenido-opcion{
+ padding-bottom: 10px;
+}
+
+
+.opcion{
+  text-decoration: none;
+  color: #000;
+}
+
+.avatar-border:hover{
+  border-color: #2ca5a5;
+}
+
+.selOpciones{
+  .avatar-border:hover{
+    border-color: #06c9ef;
+  }
+}
